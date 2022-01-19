@@ -12,11 +12,12 @@ class Solution{
     //railway station such that no train waits.
     int findPlatform(int arr[], int dep[], int n)
     {
+        
     	sort(arr, arr+n);
     	sort(dep, dep+n);
-    	int mp = 1, np = 1;
+    	int mp = 0, np = 0;
     	
-    	for(int i=1, j =0; i<n and j<n; ){
+    	for(int i=0, j =0; i<n and j<n; ){
     	    if(arr[i] <= dep[j]){
     	        i++; mp++;
     	        if(np<mp) np = mp;
@@ -25,7 +26,6 @@ class Solution{
     	        j++; mp--;
     	       // if(np<mp) np = mp;
     	    }
-    	    
     	}
     	
     	return np;
