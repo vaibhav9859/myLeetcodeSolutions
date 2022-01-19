@@ -23,7 +23,7 @@ class Solution{
     	    }
     	    else if(arr[i]>dep[j]){
     	        j++; mp--;
-    	        if(np<mp) np = mp;
+    	       // if(np<mp) np = mp;
     	    }
     	    
     	}
