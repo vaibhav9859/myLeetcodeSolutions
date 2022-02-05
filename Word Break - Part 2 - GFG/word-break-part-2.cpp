@@ -20,7 +20,9 @@ public:
     void helper(int &n, vector<string>& dict, string &s, int curStrLoc, string curAns, vector<string> &output){
         // cout<<curStrLoc<<" ";
         if(curStrLoc == s.size()){output.push_back(curAns); return;}
+        
         int dictSize = dict.size();
+        
         for(int i=0; i<dictSize; i++){
             int curWrdSize = dict[i].size();
             if(curStrLoc+curWrdSize <= s.size() and  dict[i]  == s.substr(curStrLoc, curWrdSize)){
