@@ -22,16 +22,19 @@ class Solution {
         q.push({curNode, -1}); visited[curNode] = 1;
         
         while(!q.empty()){
-            pair<int, int> pNode = q.front();
-            for(auto a: adj[pNode.first]){
-                
-                if(visited[a] and a!=pNode.second) return true;
-                if(a==pNode.second) continue;
-                visited[a] = 1; q.push({a, pNode.first});
-                
-                
-            }
+            int node = q.front().first; int par = q.front().second;
             q.pop();
+            
+            for(auto a: adj[node]){
+                if(!visited[a]){
+                    visited[a] = 1;
+                    q.push({a, node});
+                }
+                else if(par != a){
+                    return true;
+                }
+            }
+            
         }
         return false;
     }
