@@ -110,8 +110,8 @@ class Solution {
         // }
         // if(maxRight <= curPos){
         //     maxRight = curPos; 
-            if(!m[curPos].second) m[curPos] = {root->data, lev};
-            else if(m[curPos].second <= lev) m[curPos] = {root->data, lev};
+            // if(!m[curPos].second) m[curPos] = {root->data, lev};
+            // else if(m[curPos].second <= lev) m[curPos] = {root->data, lev};
         // }
         
         tvHelper(root->left, m, maxLeft, maxRight, curPos-1, lev+1);
