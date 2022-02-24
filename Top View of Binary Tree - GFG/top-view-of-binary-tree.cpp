@@ -105,7 +105,7 @@ class Solution
     //Function to return a list of nodes visible from the top view 
     //from left to right in Binary Tree.
     
-    void tvHelper(Node* root, map<int, pair<int, int>> &m, int &maxLeft, int &maxRight, int curPos, int lev){
+    void tvHelper(Node* root, map<int, pair<int, int>> &m, int curPos, int lev){
         if(!root) return;
         
         // if(maxLeft >= curPos){
@@ -120,8 +120,8 @@ class Solution
             else if(m[curPos].second > lev) m[curPos] = {root->data, lev};
         // }
         
-        tvHelper(root->left, m, maxLeft, maxRight, curPos-1, lev+1);
-        tvHelper(root->right, m, maxLeft, maxRight, curPos+1, lev+1);
+        tvHelper(root->left, m, curPos-1, lev+1);
+        tvHelper(root->right, m, curPos+1, lev+1);
     }
     
     vector<int> topView(Node *root)
@@ -132,7 +132,7 @@ class Solution
         if(!root) return output;
         map<int, pair<int, int>> m; 
         m[0] = {root->data, 1};
-        tvHelper(root, m, maxLeft, maxRight, 0, 1);
+        tvHelper(root, m, 0, 1);
         
         // for(auto pr: m){
         //     cout<<pr.first<<" "<<pr.second.first<<" "<<pr.second.second<<endl;
