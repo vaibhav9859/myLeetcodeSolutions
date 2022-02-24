@@ -105,43 +105,33 @@ class Solution
     //Function to return a list of nodes visible from the top view 
     //from left to right in Binary Tree.
     
-    void tvHelper(Node* root, map<int, pair<int, int>> &m, int curPos, int lev){
+    void tvHelper(Node* root, map<int, pair<int, int>> &m, int curBreadth, int curLev){
         if(!root) return;
         
-        // if(maxLeft >= curPos){
-        //     maxLeft = curPos; 
-            if(!m[curPos].second) m[curPos] = {root->data, lev};
-            else if (m[curPos].second > lev) m[curPos] = {root->data, lev};
-            
-        // }
-        // if(maxRight <= curPos){
-        //     maxRight = curPos; 
-            if(!m[curPos].second) m[curPos] = {root->data, lev};
-            else if(m[curPos].second > lev) m[curPos] = {root->data, lev};
-        // }
+        if(!m[curBreadth].first) m[curBreadth] = {curLev, root->data};
+        else if(curLev < m[curBreadth].first) m[curBreadth] = {curLev, root->data};
         
-        tvHelper(root->left, m, curPos-1, lev+1);
-        tvHelper(root->right, m, curPos+1, lev+1);
+        tvHelper(root->left, m, curBreadth-1, curLev+1);
+        tvHelper(root->right, m, curBreadth+1, curLev+1 );
     }
     
     vector<int> topView(Node *root)
     {
         //Your code here
+        //To solve top view problem I need to consider two things
+        //At every breadth ... -1, 0, 1, 2... only one top view element will be present
+        //Now problem is at ... -1, 0, 1, 2... there can be multiple elements, but top view will be only one
+        //That only one element will be at the topmost level for that particular breadth
+        //so we need to save two things one is breadth, and second one is height
         
-        vector<int> output; int maxLeft = 0, maxRight = 0; 
-        if(!root) return output;
-        map<int, pair<int, int>> m; 
-        m[0] = {root->data, 1};
+        map<int, pair<int, int>> m;
         tvHelper(root, m, 0, 1);
         
-        // for(auto pr: m){
-        //     cout<<pr.first<<" "<<pr.second.first<<" "<<pr.second.second<<endl;
-        // }
-        // cout<<endl;
-        for(auto pr: m){
-            output.push_back(pr.second.first);
-        }
+        vector<int> output;
         
+        for(pr: m){
+            output.push_back(pr.second.second);
+        }
         return output;
     }
 
