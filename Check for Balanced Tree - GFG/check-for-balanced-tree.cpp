@@ -114,13 +114,13 @@ class Solution{
     }
     
     int helper(Node *root, bool &ans){
-        if(!ans) return 0;
+        // if(!ans) return 0;
         if(!root) return 0;
         if(!root->left and !root->right) return 1;
         int lh = helper(root->left, ans);
         int rh = helper(root->right, ans);
         
-        if(abs(lh - rh) > 1){ans = false; return 0;}
+        if(abs(lh - rh) > 1){ans = false; }
         
         return 1 + max(lh, rh);
     }
