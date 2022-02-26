@@ -131,14 +131,13 @@ vector<int> diagonal(Node *root)
    
    while(!q.empty()){
        Node* curNode = q.front(); q.pop();
-       if(curNode->left) q.push(curNode->left);
-        output.push_back(curNode->data);
+       
         
-       while(curNode->right){
-           
-           curNode = curNode->right;
+        
+       while(curNode){
            if(curNode->left) q.push(curNode->left);
            output.push_back(curNode->data);
+           curNode = curNode->right;
        }
        
    }
