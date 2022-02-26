@@ -125,7 +125,7 @@ public:
         output.push_back(root->data);
         
         if(root->left) {root = root->left; leftSide(root, output);}
-        else if(root->right){ root = root->right; leftSide(root, output);}
+        else { root = root->right; leftSide(root, output);}
     }
     
     void leafNodes(Node *root, vector<int> &output){
