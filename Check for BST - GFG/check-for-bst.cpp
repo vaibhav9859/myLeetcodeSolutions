@@ -40,9 +40,8 @@ class Solution
         
         // cout<<prev<<" "<<root->data<<endl;
         if(prev >= root->data){ans = false; return;}
-        else{
-            prev = root->data;
-        }
+        prev = root->data;
+        
         
         helper(root->right, prev, ans);
     }
