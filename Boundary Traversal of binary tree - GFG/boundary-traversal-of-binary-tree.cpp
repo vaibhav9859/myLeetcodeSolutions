@@ -111,7 +111,9 @@ public:
         vector<int> output; 
         if(!root) return output;
         if(root->left or root->right) output.push_back(root->data);
+        
         leftSide(root->left, output); leafNodes(root, output); rightSide(root->right, output);
+        
         return output;
         
     }
@@ -139,7 +141,7 @@ public:
         if(!root->left and !root->right) return;
         
         if(root->right) rightSide(root->right, output);
-        else if (root->left) rightSide(root->left, output);
+        else rightSide(root->left, output);
         output.push_back(root->data);
         
     }
