@@ -32,10 +32,6 @@ public:
                 cur = q.front(); q.pop();
                 if(prev) prev->next = cur;
                 
-                // if(i==sz-1){
-                //     cur->next = NULL;
-                // } 
-                
                 prev = cur;
                 if(cur->left) q.push(cur->left);
                 if(cur->right) q.push(cur->right);
