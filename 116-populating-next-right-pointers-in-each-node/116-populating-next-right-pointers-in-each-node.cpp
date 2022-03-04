@@ -26,19 +26,22 @@ public:
         
         while(!q.empty()){
             int sz = q.size(); Node* prev = NULL; Node* cur = NULL; 
+            
             for(int i=0; i<sz; i++){
                 
                 cur = q.front(); q.pop();
                 if(prev) prev->next = cur;
                 
-                if(i==sz){
-                    cur->next = NULL;
-                } 
+                // if(i==sz-1){
+                //     cur->next = NULL;
+                // } 
                 
                 prev = cur;
                 if(cur->left) q.push(cur->left);
                 if(cur->right) q.push(cur->right);
             }
+            
+            
         }
         
         return root;
