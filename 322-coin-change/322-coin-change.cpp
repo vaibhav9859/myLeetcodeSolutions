@@ -6,10 +6,13 @@ public:
         
         for(int i=1; i<=amount; i++){
             for(int j=0; j<coins.size(); j++){
+                
                 if(i - coins[j] >= 0 and dp[i - coins[j]] != -1) {
-                    if(dp[i] == -1) dp[i] = INT_MAX;    
+                    if(dp[i] == -1) dp[i]  = 1 + dp[i - coins[j]];
+                    
                     dp[i]  = min(dp[i], 1 + dp[i - coins[j]]);
                 }
+                
             }
         }
         
