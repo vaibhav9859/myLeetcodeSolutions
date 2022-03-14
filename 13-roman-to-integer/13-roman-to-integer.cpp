@@ -7,27 +7,18 @@ public:
         
         int ans = 0;
         
-        for(int i=0; i<s.size(); i++){
-            if(i+1 <s.size() and s.substr(i, 2) == "IV"){
-                ans += 4; i++; continue;
+        for(int i=s.size()-2; i>=0; i--){
+            if(m[s[i]] < m[s[i+1]]){
+                ans -= m[s[i]];
             }
-            if(i+1 <s.size() and s.substr(i, 2) == "IX"){
-                ans += 9; i++; continue;
+            else{
+                ans += m[s[i]];
             }
-            if(i+1 <s.size() and s.substr(i, 2) == "XL"){
-                ans += 40; i++; continue;
-            }
-            if(i+1 <s.size() and s.substr(i, 2) == "XC"){
-                ans += 90; i++; continue;
-            }
-            if(i+1 <s.size() and s.substr(i, 2) == "CD"){
-                ans += 400; i++; continue;
-            }
-            if(i+1 <s.size() and s.substr(i, 2) == "CM"){
-                ans += 900; i++; continue;
-            }
-            ans += m[s[i]];
+            // cout<<ans<<" ";
         }
+        
+        ans += m[s[s.size()-1]];
+        // cout<<ans<<endl;
         
         return ans;
     }
