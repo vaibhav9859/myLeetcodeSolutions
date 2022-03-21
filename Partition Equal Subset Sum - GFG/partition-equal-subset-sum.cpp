@@ -12,7 +12,7 @@ public:
  int equalPartition(int N, int arr[])
     {
         // code here
-        int rows = 33000, cols = 101;
+        int rows = 30000, cols = 101;
         vector<vector<int> > dp(rows, vector<int> (cols, -1));
         long long int rightSum = 0;
         for(int i=1; i<N; i++) rightSum += arr[i];
