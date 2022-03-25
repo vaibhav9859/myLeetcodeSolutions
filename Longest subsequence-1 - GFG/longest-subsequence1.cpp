@@ -12,7 +12,7 @@ public:
     int longestSubsequence(int N, int A[])
     {
         // code here
-        
+        // vector<vector<int>> dp(N+1, vector<int>(N+1, -1));
         helper(N, A, -1, 0);
     }
     
@@ -22,6 +22,8 @@ public:
         if(prevPos == -1 or abs(A[curPos] - A[prevPos]) == 1){
            return max(1 + helper(N, A, curPos, curPos+1), 
                         helper(N, A, prevPos, curPos+1 ));
+                        
+                        
         }
         else{
             return helper(N, A, prevPos, curPos+1);
