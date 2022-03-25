@@ -16,13 +16,15 @@ class Solution {
     int helper(int arr[], int N, int k, int curPos, long long curProd){
         if(curPos == N) return 0;
         
+        int x = 0, y = 0;
         if(curProd * arr[curPos] <= k){
-            return (1 + helper(arr, N, k, curPos+1, curProd * arr[curPos])+
-                    helper(arr, N, k, curPos+1, curProd));
+            x = (1 + helper(arr, N, k, curPos+1, curProd * arr[curPos]));
         }
-        else{
-            return helper(arr, N, k, curPos+1, curProd);
-        }
+        // else{
+            y = helper(arr, N, k, curPos+1, curProd);
+        // }
+        
+        return x+y;
     }
 };
 
