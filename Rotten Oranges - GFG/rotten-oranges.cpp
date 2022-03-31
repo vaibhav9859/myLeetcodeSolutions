@@ -21,6 +21,7 @@ class Solution
         
         while(!q.empty()){
             int sz = q.size(); int flag = 0;
+            ans++;
             for(int i=0; i<sz; i++){
                 int curRow = q.front().first, curCol = q.front().second;
                 q.pop();
@@ -48,7 +49,7 @@ class Solution
             
             }
         
-            if(flag) ans++;
+            // if(flag) ans++;
         }
         
         for(int i=0; i<n; i++){
@@ -57,7 +58,7 @@ class Solution
             }
         }
         
-        return ans;
+        return --ans;
     }
 };
 
