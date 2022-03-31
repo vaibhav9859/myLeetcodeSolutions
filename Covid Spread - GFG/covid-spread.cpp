@@ -11,44 +11,56 @@ using namespace std;
 
 class Solution {
 public:
-    int helpaterp(vector<vector<int>> hospital)
+    int helpaterp(vector<vector<int>> grid)
     {
-        //code here
-        int rowS = hospital.size(), colS = hospital[0].size();
+        int n = grid.size(), m = grid[0].size();
+        queue<pair<int, int>> q;
         int ans = 0;
-        queue<pair<int,int>> q;
-        for(int i=0; i<hospital.size(); i++){
-            for(int j=0; j<hospital[0].size(); j++){
-                if(hospital[i][j] == 2) q.push({i,j});
+        
+        for(int i=0; i<n; i++){
+            for(int j=0; j<m; j++){
+                if(grid[i][j] == 2) q.push({i, j});
             }
         }
         
-        if(q.empty()) return 0;
-        q.push({-1, -1});
-        
         while(!q.empty()){
-            
-            while(!q.empty() and q.front().first != -1){
+            int sz = q.size(); int flag = 0;
+            for(int i=0; i<sz; i++){
                 int curRow = q.front().first, curCol = q.front().second;
                 q.pop();
                 
-                if(curRow-1>=0 and hospital[curRow-1][curCol] == 1) {q.push({curRow-1, curCol}); hospital[curRow-1][curCol] = 2;}
-                if(curCol+1< colS and hospital[curRow][curCol+1] == 1) {q.push({curRow, curCol+1}); hospital[curRow][curCol+1] = 2;};
-                if(curRow+1< rowS and  hospital[curRow+1][curCol] == 1){q.push({curRow+1, curCol}); hospital[curRow+1][curCol] = 2;};
-                if(curCol-1 >=0 and hospital[curRow][curCol-1] == 1){ q.push({curRow, curCol-1}); hospital[curRow][curCol-1] = 2;}
-                
-            }
-
+                if(curCol+1 < m and grid[curRow][curCol+1] == 1){
+                    grid[curRow][curCol+1] = 2;
+                    q.push({curRow, curCol+1});
+                    flag = 1;
+                }
+                if(curCol-1 >= 0 and grid[curRow][curCol-1] == 1){
+                    grid[curRow][curCol-1] = 2;
+                    q.push({curRow, curCol-1});
+                    flag = 1;
+                }
+                 if(curRow+1 < n and grid[curRow+1][curCol] == 1){
+                    grid[curRow+1][curCol] = 2;
+                    q.push({curRow+1, curCol});
+                    flag = 1;
+                }
+                if(curRow-1 >= 0 and grid[curRow-1][curCol] == 1){
+                    grid[curRow-1][curCol] = 2;
+                    q.push({curRow-1, curCol});
+                    flag = 1;
+                }  
             
-            if(!q.empty()) q.pop();
-            if(!q.empty()){ q.push({-1, -1}); ans++;}
+            }
+        
+            if(flag) ans++;
         }
         
-        for(int i=0; i<hospital.size(); i++){
-            for(int j=0; j<hospital[0].size(); j++){
-                if(hospital[i][j] == 1) return -1;
+        for(int i=0; i<n; i++){
+            for(int j=0; j<m; j++){
+                if(grid[i][j] == 1) return -1;
             }
         }
+        
         return ans;
     }
 };
