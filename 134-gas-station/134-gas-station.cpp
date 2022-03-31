@@ -15,7 +15,7 @@ public:
 
         }
         
-        if(start<sz and curBal + prevBal >= 0) return start;
+        if(curBal + prevBal >= 0) return start;
         return -1;
     }
 };
