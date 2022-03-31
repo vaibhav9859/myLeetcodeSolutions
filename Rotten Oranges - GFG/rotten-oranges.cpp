@@ -20,36 +20,31 @@ class Solution
         }
         
         while(!q.empty()){
-            int sz = q.size(); int flag = 0;
-            ans++;
+            int sz = q.size();
             for(int i=0; i<sz; i++){
+                int flag = 0;
                 int curRow = q.front().first, curCol = q.front().second;
                 q.pop();
                 
                 if(curCol+1 < m and grid[curRow][curCol+1] == 1){
                     grid[curRow][curCol+1] = 2;
                     q.push({curRow, curCol+1});
-                    flag = 1;
                 }
                 if(curCol-1 >= 0 and grid[curRow][curCol-1] == 1){
                     grid[curRow][curCol-1] = 2;
                     q.push({curRow, curCol-1});
-                    flag = 1;
                 }
                  if(curRow+1 < n and grid[curRow+1][curCol] == 1){
                     grid[curRow+1][curCol] = 2;
                     q.push({curRow+1, curCol});
-                    flag = 1;
                 }
                 if(curRow-1 >= 0 and grid[curRow-1][curCol] == 1){
                     grid[curRow-1][curCol] = 2;
                     q.push({curRow-1, curCol});
-                    flag = 1;
                 }  
             
             }
-        
-            // if(flag) ans++;
+            ans++;
         }
         
         for(int i=0; i<n; i++){
