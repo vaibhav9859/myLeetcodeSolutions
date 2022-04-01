@@ -108,10 +108,10 @@ class Solution{
     
     int helper(struct Node *root, int target, unordered_map<int, int> &m){
         if(!root) return 0;
-        
+        m[root->data] = 1;
         if(target - root->data>=0 and m[target - root->data]) return 1;
         
-        m[root->data] = 1;
+        
         
         return helper(root->left, target, m) or helper(root->right, target, m);
     }
