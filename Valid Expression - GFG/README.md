@@ -1,5 +1,5 @@
 # Valid Expression
-## Medium 
+##  Medium 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given a string S, composed of different combinations of '(' , ')', '{', '}', '[', ']'. The task is to verify the validity of the arrangement.<br>
 <strong>Note:</strong> Ignore the precedence of brackets.</span></p>
