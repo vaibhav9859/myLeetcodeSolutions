@@ -102,11 +102,11 @@ class Solution{
     int isPairPresent(struct Node *root, int target)
     {
     //add code here.
-        map<int, int> m;
+        unordered_map<int, int> m;
         return helper(root, target, m);
     }
     
-    int helper(struct Node *root, int target, map<int, int> &m){
+    int helper(struct Node *root, int target, unordered_map<int, int> &m){
         if(!root) return 0;
         
         if(target - root->data>=0 and m[target - root->data]) return 1;
