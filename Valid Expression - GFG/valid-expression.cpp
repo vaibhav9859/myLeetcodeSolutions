@@ -20,27 +20,19 @@ int main()
 bool valid(string s)
 {
     // code here
-    stack<char> st;
+    int cp1 = 0, cn1 = 0, cp2 = 0, cn2 = 0, cp3 = 0, cn3 = 0;
     
     for(int i=0; i<s.size(); i++){
-        if(s[i] == '(' or s[i] == '[' or s[i] == '{'){
-            st.push(s[i]);
-        }
-        else if(s[i] == ')'){
-            if(!st.empty() and st.top() == '(') st.pop();
-            else return false;
-        }
-        else if(s[i] == ']'){
-            if(!st.empty() and st.top() == '[') st.pop();
-            else return false;            
-        }
-        else if(s[i] == '}'){
-            if(!st.empty() and st.top() == '{') st.pop();
-            else return false;           
-        }
+        if(cp1<cn1 or cp2<cn2 or cp3<cn3) return false;
+        
+        if(s[i] == '(') cp1++;
+        else if(s[i] == '[') cp2++;
+        else if(s[i] == '{') cp3++;
+        else if(s[i] == ')') cn1++;
+        else if(s[i] == ']') cn2++;
+        else if(s[i] == '}') cn3++;
     }
     
-    if(st.empty()) return true;
-    
-    return false;
+    if(cp1 != cn1 or cp2 != cn2 or cp3 != cn3) return false;
+    return true;
 }
