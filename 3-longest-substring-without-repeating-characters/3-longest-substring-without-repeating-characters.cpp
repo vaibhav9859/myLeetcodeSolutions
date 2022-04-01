@@ -4,13 +4,17 @@ public:
         unordered_map<char, int> m;
         int ans = 0;
         
-        for(int fi = 0, si = 0; si<s.size(); ){
-            if(!m[s[si]]) {m[s[si]] = 1;  ans = max(ans, si-fi+1); si++;}
-            else{
-                m[s[fi]] = 0;
-                fi++;
+        for(int start = 0, end = 0; end<s.size(); ){
+
+            if(!m[s[end]]) {
+                m[s[end]] = 1;  
+                ans = max(ans, end-start+1); 
+                end++;
             }
-            
+            else{
+                m[s[start]] = 0;
+                start++;
+            } 
             
         }
         
