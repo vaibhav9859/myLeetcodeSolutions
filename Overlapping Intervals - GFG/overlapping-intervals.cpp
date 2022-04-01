@@ -12,30 +12,19 @@ public:
          
          sort(intervals.begin(), intervals.end());
          
-         int fv = intervals[0][0], sv = intervals[0][1];
+         output.push_back(intervals[0]);
          
          for(int i=1; i<rowsz; i++){
-             if(sv >= intervals[i][0]){
-                 sv = max(sv, intervals[i][1]);
+             int sz = output.size() - 1;
+             if(output[sz][1] >= intervals[i][0]){
+                 output[sz][1] = max(output[sz][1], intervals[i][1]);
              }
              else{
-                 vector<int> temp; temp.push_back(fv); temp.push_back(sv);
-                 output.push_back(temp);
-                 fv = intervals[i][0]; sv = intervals[i][1];
+                 output.push_back(intervals[i]);
              }
          }
          
-        vector<int> temp; temp.push_back(fv); temp.push_back(sv);
-        output.push_back(temp);        
-        //  for(int i=0; i<rowsz; i++){
-        //      for(int j=0; j<colsz; j++){
-        //          cout<<intervals[i][j]<<" ";
-        //      }
-        //      cout<<endl;
-        //  }
-         
-         
-         return output;
+        return output;
     }
 };
 
