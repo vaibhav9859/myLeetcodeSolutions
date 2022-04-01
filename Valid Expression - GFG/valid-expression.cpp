@@ -23,16 +23,19 @@ bool valid(string s)
     int cp1 = 0, cn1 = 0, cp2 = 0, cn2 = 0, cp3 = 0, cn3 = 0;
     
     for(int i=0; i<s.size(); i++){
-        if(cp1<cn1 or cp2<cn2 or cp3<cn3) return false;
+        if(cp1<0 or cp2<0 or cp3<0) return false;
         
         if(s[i] == '(') cp1++;
         else if(s[i] == '[') cp2++;
         else if(s[i] == '{') cp3++;
-        else if(s[i] == ')') cn1++;
-        else if(s[i] == ']') cn2++;
-        else if(s[i] == '}') cn3++;
+        // else if(s[i] == ')') cn1++;
+        // else if(s[i] == ']') cn2++;
+        // else if(s[i] == '}') cn3++;
+        else if(s[i] == ')') cp1--;
+        else if(s[i] == ']') cp2--;
+        else if(s[i] == '}') cp3--;
     }
     
-    if(cp1 != cn1 or cp2 != cn2 or cp3 != cn3) return false;
+    if(cp1 != 0 or cp2 != 0 or cp3 != 0) return false;
     return true;
 }
