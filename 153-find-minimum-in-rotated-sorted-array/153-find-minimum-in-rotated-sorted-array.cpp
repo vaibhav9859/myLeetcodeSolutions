@@ -15,8 +15,11 @@ public:
             if(nums[mid] <= nums[(mid+1)%sz] and nums[mid] <= nums[(mid-1+sz)%sz]){
                 return ans = nums[mid];
             }
-            else if(nums[mid] < nums[l]) h = mid-1;
-            else l = mid+1;
+            // else if(nums[mid] < nums[l]) h = mid-1;
+            // else l = mid+1;
+            else if(nums[l]<=nums[mid]) l = mid+1;
+            else h = mid-1;
+               
         }
         
         return ans;
