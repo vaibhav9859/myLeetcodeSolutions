@@ -8,11 +8,11 @@ public:
             adj[dislikes[i][1]].push_back(dislikes[i][0]);
         }
         
-        for(int i=1; i<=n; i++){
-            cout<<i<<"-->";
-            for(auto a: adj[i]) cout<<a<<" ";
-            cout<<endl;
-        }
+        // for(int i=1; i<=n; i++){
+        //     cout<<i<<"-->";
+        //     for(auto a: adj[i]) cout<<a<<" ";
+        //     cout<<endl;
+        // }
         
         for(int i=1; i<=n; i++){
             if(colour[i] == -1){
