@@ -31,7 +31,6 @@ bool search(int arr[], int low, int high, int value){
     int mid;
     
     while(low <= high){
-        // cout<<value<<" "<<low<<" "<<high<<endl;
         mid = low + (high - low)/2;
         if(arr[mid] == value) return true;
         else if(value < arr[mid]) high = mid-1;
