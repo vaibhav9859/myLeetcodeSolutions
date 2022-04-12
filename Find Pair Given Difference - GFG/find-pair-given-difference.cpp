@@ -40,7 +40,7 @@ bool findPair(int arr[], int size, int n){
     for(int i=0; i<size; i++){
         val = arr[i];
         if(val+n != val and m[val+n]) return true;
-        else if(val+n == val and m[val+n] == 2) return true;
+        // else if(val+n == val and m[val+n] == 2) return true;
     }
     
     return false;
