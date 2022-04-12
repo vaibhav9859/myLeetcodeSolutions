@@ -27,21 +27,27 @@ int main()
 }// } Driver Code Ends
 
 
+bool search(int arr[], int low, int high, int value){
+    int mid;
+    
+    while(low <= high){
+        // cout<<value<<" "<<low<<" "<<high<<endl;
+        mid = low + (high - low)/2;
+        if(arr[mid] == value) return true;
+        else if(value < arr[mid]) high = mid-1;
+        else low = mid+1;
+    }
+    
+    return false;
+}
+
+
 bool findPair(int arr[], int size, int n){
     //code
-    unordered_map<int, int> m;
-    int val = 0;
+    sort(arr, arr+size);
     
-    for(int i=0; i<size; i++){
-         val = arr[i];
-         m[val]++;
+    for(int i=0; i<=size-2; i++){
+        if(search(arr, i+1, size-1, arr[i]+n)) return true;
     }
-    
-    for(int i=0; i<size; i++){
-        val = arr[i];
-        if(val+n != val and m[val+n]) return true;
-        else if(val+n == val and m[val+n] == 2) return true;
-    }
-    
     return false;
 }
