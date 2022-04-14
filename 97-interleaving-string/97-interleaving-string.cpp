@@ -12,8 +12,6 @@ public:
         
         if(fptr == s1.size() and sptr == s2.size() and tptr == s3.size()) return true;
         
-        // if(tptr == s3.size()) return false;
-        
         if(dp[fptr][sptr][tptr] != -1) return dp[fptr][sptr][tptr];
         
         bool opt1 = false, opt2 = false;
