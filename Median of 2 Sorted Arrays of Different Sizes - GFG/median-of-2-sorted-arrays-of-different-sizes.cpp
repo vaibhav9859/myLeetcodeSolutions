@@ -24,7 +24,7 @@ class Solution{
         
         while(l<=h){
             cut1 = (l+h)/2;
-            cut2 = (ceil((sz1 + sz2)/2.0) )-cut1;
+            cut2 = ((sz1 + sz2 +1)/2 )-cut1;
             
             // cout<<cut1<<" "<<cut2<<endl;
             
@@ -33,11 +33,11 @@ class Solution{
             r1 = INT_MAX;
             r2 = INT_MAX;
             
-            if(cut1 != 0) l1 = array1[cut1-1]; 
-            if(cut2 != 0) l2 = array2[cut2-1];
+            if(cut1 > 0) l1 = array1[cut1-1]; 
+            if(cut2 > 0) l2 = array2[cut2-1];
             
-            if(cut1 != sz1) r1 = array1[cut1];
-            if(cut2 != sz2) r2 = array2[cut2];
+            if(cut1 < sz1) r1 = array1[cut1];
+            if(cut2 < sz2) r2 = array2[cut2];
             
             // cout<<l1<<" "<<l2<<" "<<r1<<" "<<r2<<endl<<endl;
             
