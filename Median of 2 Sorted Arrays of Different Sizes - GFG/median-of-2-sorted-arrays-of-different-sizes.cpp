@@ -36,8 +36,8 @@ class Solution{
             if(cut1 > 0) l1 = array1[cut1-1]; 
             if(cut2 > 0) l2 = array2[cut2-1];
             
-            if(cut1 < sz1) r1 = array1[cut1];
-            if(cut2 < sz2) r2 = array2[cut2];
+            if(cut1 < sz1 and cut1 >=0) r1 = array1[cut1];
+            if(cut2 < sz2 and cut2 >=0) r2 = array2[cut2];
             
             // cout<<l1<<" "<<l2<<" "<<r1<<" "<<r2<<endl<<endl;
             
