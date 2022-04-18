@@ -24,7 +24,7 @@ class Solution{
         
         while(l<=h){
             cut1 = (l+h)/2;
-            cut2 = ((sz1 + sz2 +1)/2 )-cut1;
+            cut2 = (ceil((sz1 + sz2)/2.0) )-cut1;
             
             // cout<<cut1<<" "<<cut2<<endl;
             
