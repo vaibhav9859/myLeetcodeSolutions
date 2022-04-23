@@ -4,7 +4,7 @@ public:
     // Encodes a URL to a shortened URL.
     unordered_map<string, string> l2s;
     unordered_map<string, string> s2l;
-    int count;
+    int count = 0;
     
     string encode(string longUrl) {
     
