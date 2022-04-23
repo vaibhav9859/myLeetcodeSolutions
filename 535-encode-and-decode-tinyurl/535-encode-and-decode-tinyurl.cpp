@@ -12,7 +12,8 @@ public:
             return l2s[longUrl];
         }    
         else{
-            count++; string temp = to_string(count);
+            // count++; 
+            string temp = to_string(count);
             l2s[longUrl] = "http://tinyurl.com/" + temp;
             
             s2l["http://tinyurl.com/" + temp] = longUrl;
