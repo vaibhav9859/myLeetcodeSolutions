@@ -10,7 +10,7 @@ public:
     }
     
     void checkIn(int id, string stationName, int t) {
-        if(inTransit.find(id) != inTransit.end()) return;
+        // if(inTransit.find(id) != inTransit.end()) return;
         inTransit[id] = {stationName, t};
     }
     
