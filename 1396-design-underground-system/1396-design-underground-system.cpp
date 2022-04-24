@@ -1,12 +1,12 @@
-class UndergroundSystem {
+class UndergroundSystem { 
 public:
     //startStation:endStation -> {totalTime, numberOfTrips}
     unordered_map<string, pair<long long, int>> stationTimes;
     //customerId -> startStation
     unordered_map<int, pair<string,int>> inTransit;
     UndergroundSystem() {
-        stationTimes.clear();
-        inTransit.clear();
+        // stationTimes.clear();
+        // inTransit.clear();   
     }
     
     void checkIn(int id, string stationName, int t) {
