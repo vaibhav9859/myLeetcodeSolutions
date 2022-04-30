@@ -40,7 +40,7 @@ public:
     
     void dfs(map<string, vector<pair<string, double>>> &dirGraph, string startNode, string endNode, map<string, int> &vis, double &ans,
              int  &flag, double curAns = 1.0 ){
-        cout<<curAns<<" ";
+        // cout<<curAns<<" ";
         if(startNode == endNode){
             ans = curAns; flag = 1;
         }
