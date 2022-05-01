@@ -9,9 +9,9 @@ public:
                 
         while(!q.empty()){
 
-            int sz = q.size();
+            // int sz = q.size();
             
-            for(int i=0; i<sz; i++){
+            // for(int i=0; i<sz; i++){
                 int curR = q.front().first, curC = q.front().second; q.pop();
                 
                 // cout<<curR<<" "<<curC<<endl;
@@ -34,7 +34,7 @@ public:
                 }
                 
                 
-            }
+            // }
            
         }
         return image;
