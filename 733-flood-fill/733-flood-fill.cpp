@@ -15,9 +15,9 @@ public:
                 int curR = q.front().first, curC = q.front().second; q.pop();
                 
                 // cout<<curR<<" "<<curC<<endl;
-                if(vis[curR][curC]){
-                    continue;
-                }
+                // if(vis[curR][curC]){
+                //     continue;
+                // }
                 vis[curR][curC] = 1; 
                 image[curR][curC] = newColor;
                 
