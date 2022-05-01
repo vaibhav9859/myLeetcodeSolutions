@@ -5,7 +5,7 @@ public:
         
         queue<pair<int, int>> q; vector<vector<int>> vis(rows, vector<int>(cols, 0));
         
-        q.push({sr, sc}); int desColor = image[sr][sc]; 
+        q.push({sr, sc}); int desColor = image[sr][sc]; vis[sr][sc] = 1; 
                 
         while(!q.empty()){
 
@@ -18,7 +18,7 @@ public:
                 // if(vis[curR][curC]){
                 //     continue;
                 // }
-                vis[curR][curC] = 1; 
+                
                 image[curR][curC] = newColor;
                 
                 int temp[4][4] = { {0, 1}, {1, 0}, {0, -1}, {-1, 0} };
@@ -29,6 +29,7 @@ public:
                     
                     if(newCurR>=0 and newCurR<rows and newCurC>=0 and newCurC<cols and image[newCurR][newCurC] == desColor 
                        and !vis[newCurR][newCurC]){
+                        vis[newCurR][newCurC] = 1;
                         q.push({newCurR, newCurC});
                     }
                 }
