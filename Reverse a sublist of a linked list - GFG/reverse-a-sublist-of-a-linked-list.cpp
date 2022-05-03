@@ -40,7 +40,7 @@ class Solution
             nodeToAdd->next = th;
             th = nodeToAdd;
         }
-        // cout<<tt->data<<" ";
+        
     }
     
     void rev(Node* head, Node* &th, Node* &tt){
@@ -87,9 +87,7 @@ class Solution
         
         Node* th = NULL; Node* tt = NULL;
         rev(second->next, th, tt);
-        // cout<<endl;
-        
-        // if(tt)cout<<tt->data<<endl;
+
         
         cur = first;
         
@@ -98,16 +96,7 @@ class Solution
         }
         
         cur->next = th;
-        
-        // cur = th;
-        // while(cur->next){
-        //     cur = cur->next;
-        // }
-        
-        // cur->next = third->next;
-        
-        // cout<<tt->data<<endl;
-        
+  
         tt->next = third->next;
         
         return first->next;
