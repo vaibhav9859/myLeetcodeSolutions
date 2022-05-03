@@ -1,38 +1,38 @@
 class Solution {
 public:
     int findUnsortedSubarray(vector<int>& nums) {
-        stack<pair<int, int>> st;
+        int minVal = INT_MAX, maxVal = INT_MIN;
         int sz = nums.size();
-        int leftBou = -1, rightBou = -1;
+        int flag = 0;
         
-        //Traversal from left
-        for(int i=0; i<sz; i++){
-            if(st.empty()) st.push({nums[i], i});
-            else{
-                while(!st.empty() and st.top().first > nums[i]){
-                    if(leftBou == -1) leftBou = st.top().second;
-                    else leftBou = min(leftBou, st.top().second);
-                    
-                    st.pop();
-                }
-                st.push({nums[i], i});
+        for(int i=1; i<sz; i++){
+            if(nums[i] < nums[i-1]){
+                flag = 1;
+            }    
+            if(flag){
+                minVal = min(minVal, nums[i]);
             }
         }
         
-        //Traversal from right
-        for(int j=sz-1; j>=0; j--){
-            if(st.empty()) st.push({nums[j], j});
-            else{
-                while(!st.empty() and st.top().first < nums[j]){
-                    if(rightBou == -1) rightBou = st.top().second;
-                    else rightBou = max(rightBou, st.top().second);
-                    
-                    st.pop();
-                }
-                st.push({nums[j], j});
+        flag = 0;
+        for(int i=sz-2; i>=0; i--){
+            if(nums[i] > nums[i+1]) flag = 1;
+            
+            if(flag){
+                maxVal = max(maxVal, nums[i]);
             }
         }
         
-        return rightBou - leftBou > 0 ?  rightBou - leftBou + 1 : 0;
+        int left, right;
+        
+        for(left = 0; left<sz; left++){
+            if(nums[left]>minVal) break;
+        }
+        
+        for(right = sz-1; right>=0; right--){
+            if(nums[right] < maxVal) break;
+        }
+        
+        return (right-left > 0) ? right-left+1 : 0;
     }
 };
