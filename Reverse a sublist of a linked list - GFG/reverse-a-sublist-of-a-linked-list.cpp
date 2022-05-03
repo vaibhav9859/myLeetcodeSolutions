@@ -33,14 +33,17 @@ class Solution
     public:
     
     void addNode(Node* nodeToAdd, Node* &th, Node* &tt){
-        if(!th) th = tt = nodeToAdd;
+        
+        
+        if(!th) {th =nodeToAdd; tt = nodeToAdd;}
         else{
             nodeToAdd->next = th;
             th = nodeToAdd;
         }
+        // cout<<tt->data<<" ";
     }
     
-    void rev(Node* head, Node* &th, Node* tt){
+    void rev(Node* head, Node* &th, Node* &tt){
         Node* cur = head;
         
         while(cur){
@@ -84,6 +87,9 @@ class Solution
         
         Node* th = NULL; Node* tt = NULL;
         rev(second->next, th, tt);
+        // cout<<endl;
+        
+        // if(tt)cout<<tt->data<<endl;
         
         cur = first;
         
@@ -93,14 +99,16 @@ class Solution
         
         cur->next = th;
         
-        cur = th;
-        while(cur->next){
-            cur = cur->next;
-        }
+        // cur = th;
+        // while(cur->next){
+        //     cur = cur->next;
+        // }
         
-        cur->next = third->next;
+        // cur->next = third->next;
         
-        // tt->next = third->next;
+        // cout<<tt->data<<endl;
+        
+        tt->next = third->next;
         
         return first->next;
     }
