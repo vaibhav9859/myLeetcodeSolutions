@@ -1,5 +1,7 @@
 class Solution {
 public:
+    // This solution takes O(n) space and O(n) time
+    
     int maxOperations(vector<int>& nums, int k) {
         unordered_map<int, int> mp;
         int sz = nums.size();
