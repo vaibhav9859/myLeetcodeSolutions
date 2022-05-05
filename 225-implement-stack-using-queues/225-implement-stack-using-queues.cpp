@@ -1,5 +1,8 @@
 class MyStack {
 public:
+    // Using 2 Queues
+    // O(n) time for popping or top of element
+    // O(1) time for pushing
     queue<int> q1, q2;
     
     MyStack() {
