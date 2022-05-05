@@ -1,80 +1,55 @@
 class MyStack {
 public:
-    // Using 2 Queues
-    // O(n) time for popping or top of element
-    // O(1) time for pushing
-    queue<int> q1, q2;
+    //Using 2 Queues
+    //pop and top in O(1) time
+    //push in O(n) time
+    
+    queue<int> q_one;
+    queue<int> q_two;
     
     MyStack() {
         
     }
     
     void push(int x) {
-        if(!q1.empty()) q1.push(x);
-        else if(!q2.empty()) q2.push(x);
-        else q1.push(x);
+        if(q_one.empty()){
+            q_one.push(x);
+            while(!q_two.empty()){
+                q_one.push(q_two.front()); q_two.pop();
+            }
+        }
+        else{
+            q_two.push(x);
+            while(!q_one.empty()){
+                q_two.push(q_one.front()); q_one.pop();
+            }
+        }
+        
     }
     
     int pop() {
-        int ans;
-        if(!q1.empty()){
-            while(q1.size() != 1){
-                int val = q1.front(); q1.pop();
-                q2.push(val);
-            }
-            
-            ans = q1.front();
-            
-            // q2.push(ans);
-            q1.pop();
-            return ans;
+        if(!q_two.empty()){
+            int val = q_two.front(); q_two.pop();
+            return val;
         }
-        else if(!q2.empty()){
-            while(q2.size() != 1){
-                int val = q2.front(); q2.pop();
-                q1.push(val);
-            }
-            
-            ans = q2.front();
-            q2.pop();
-            // q1.push(ans);
-            
-            return ans;
-        }   
-        
-        return ans;
+        else{
+            int val = q_one.front(); q_one.pop();
+            return val;
+        }
+
     }
     
     int top() {
-        int ans;
-        if(!q1.empty()){
-            while(q1.size() != 1){
-                int val = q1.front(); q1.pop();
-                q2.push(val);
-            }
-            
-            ans = q1.front(); q1.pop();
-            
-            q2.push(ans);
-            
-            return ans;
+        if(!q_two.empty()){
+            return q_two.front();
         }
-        else if(!q2.empty()){
-            while(q2.size() != 1){
-                int val = q2.front(); q2.pop();
-                q1.push(val);
-            }
-            
-            ans = q2.front(); q2.pop();
-            q1.push(ans);
-            
-            return ans;
+        else{
+            return q_one.front(); 
         }
-        return ans;
     }
     
     bool empty() {
-        if(q1.empty() and q2.empty()) return true;
+        if(q_one.empty() and q_two.empty()) return true;
         return false;
     }
 };
