@@ -10,32 +10,41 @@ class Solution
     //be performed in a meeting room.
     int maxMeetings(int start[], int end[], int n)
     {
-        // Your code here
-        int ans = 1;
-        vector<pair<int, int>> v;
+        //What matters here is end time, When did the prev meeting ended
+        //So first task should be to sort these meeting with respect to end times
+        
+        vector<pair<int, int>> meets;
+        
         for(int i=0; i<n; i++){
-            v.push_back({end[i], start[i]});
+            meets.push_back({end[i], start[i]});
         }
         
-        sort(v.begin(), v.end());
+        //Now sorting with respect to end timings
+        sort(meets.begin(), meets.end());
         
-        // for(int i=0; i<n; i++){
-        //       cout<<v[i].second<<" "<<v[i].first<<endl;
-        // }
-        // cout<<endl;
-        int prevIndex = 0;
-        for(int i=1; i<n;){
-            if(v[i].second > v[prevIndex].first){
-                prevIndex = i;
-                ans++; i++;
-                
+        //Now simple traverse and check what meeting can be accomodated
+        //By checking end time of previous meeting with start time of next one
+        
+        
+        //We need a variable prev to know what is the last meeting we considered
+        int result = 0;
+        int prevMeetingEndTime = -1;
+        
+        for(auto &prValues: meets){
+            if(prevMeetingEndTime == -1){
+                 result++; 
+                 prevMeetingEndTime = prValues.first; 
             }
-            else i++;
-            
-            // cout<<ans<<" "<<v[i].second<<" "<<v[i].first<<endl;
+            else{
+                if(prValues.second > prevMeetingEndTime){
+                    result++; 
+                    prevMeetingEndTime = prValues.first;
+                }
+            }
         }
         
-        return ans;
+        return result;
+        
     }
 };
 
