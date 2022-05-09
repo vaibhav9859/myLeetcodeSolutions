@@ -1,7 +1,9 @@
 class Solution {
 public:
     vector<string> letterCombinations(string digits) {
-        unordered_map<char, string> mp; vector<string> resVec;
+        unordered_map<char, string> mp; 
+        vector<string> resVec;
+        unordered_set<string> output;
         
         char temp = 'a';
         for(int i='2'; i<='9'; i++){
@@ -14,14 +16,6 @@ public:
             }
         }
         
-//         for(auto &pr: mp){
-//             cout<<pr.first<<" "<<pr.second<<endl;
-//         }
-        
-        
-        
-        unordered_set<string> output;
-        
         
         letComRec(digits, 0, mp, output, "");
         
@@ -29,13 +23,13 @@ public:
             resVec.push_back(val);
         }
         
-        if(resVec.size() == 1 and resVec[0] == "") resVec.pop_back();
+
         return resVec;
     }
     
     void letComRec(string digits, int curPos, unordered_map<char, string> &mp, unordered_set<string> &output, string curStr){
         if(curPos == digits.size()){
-            output.insert(curStr);
+            if(curStr != "") output.insert(curStr);
             return;
         }
         
