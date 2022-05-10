@@ -2,6 +2,9 @@ class Solution {
 public:
     vector<vector<int>> combinationSum3(int k, int n) {
         vector<int> curVec; 
+        
+        //You can't use unordered_set
+        //unordered_set can only be used by simple data types i.e. strings, int, char etc
         set<vector<int>> ansSet;
         
         vector<vector<int>> output;
