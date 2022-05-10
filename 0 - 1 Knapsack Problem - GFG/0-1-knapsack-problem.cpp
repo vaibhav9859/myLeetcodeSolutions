@@ -8,53 +8,30 @@ class Solution
 {
     public:
     //Function to return max value that can be put in knapsack of capacity W.
+    
     int knapSack(int W, int wt[], int val[], int n) 
     { 
        // Your code here
-       int** dp = new int*[n+1];
-       for(int i=0; i<=n; i++){
-           dp[i] = new int[W+1];
-           for(int j=0; j<=W; j++){
-               dp[i][j] = 0;
-           }
-       }
-       
-    //   memset(dp, 0, sizeof(dp));
-       
-    //   for(int i=0; i<n; i++){
-    //       for(int j=0; j<W; j++){
-    //           cout<<dp[i][j]<<" ";
-    //       }
-    //       cout<<endl;
-    //   }
-       
-      for(int i=1; i<=n; i++){
-          for(int j=1; j<=W; j++){
-              if(wt[i-1] <= j) dp[i][j] = max(dp[i-1][j], val[i-1] + dp[i-1][j - wt[i-1]]);
-              else dp[i][j] = dp[i-1][j];
-          }
-      }
-       
-       return dp[n][W];
+       vector<vector<int>> dp(W+1, vector<int>(n+1, -1));
+       return helper(W, wt, val, n, 0, dp);
+    }
+    
+    int helper(int W, int wt[], int val[], int n, int i, vector<vector<int>> &dp){
+        if(i == n or W == 0) return 0;
+        
+        if(dp[W][i] != -1) return dp[W][i];
+        
+        int op1 = 0, op2 = 0;
+        if(wt[i] <= W){
+            op1 = val[i] + helper(W-wt[i], wt, val, n, i+1, dp);    
+        }
+        
+        op2 = helper(W, wt, val, n, i+1, dp);
+        
+        
+        return dp[W][i] = max(op1, op2);
     }
 };
-
-
-
-// n, w, val[], w[]
-
-// N * W
-
-
-// 0 + 3, 0
-
-//   0     1   2   3   4
-// 0 0     0   0   0   0
-// 1 0     0   0   0   1
-// 2 0     0   0   0   1  
-// 3 0     3   3 
-
-
 
 // { Driver Code Starts.
 
