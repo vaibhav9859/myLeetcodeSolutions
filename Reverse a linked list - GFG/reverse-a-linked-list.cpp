@@ -45,14 +45,28 @@ class Solution
         
         first->next = NULL;
         
-        while(second != NULL){
-            second->next = first;
-            first = second;
-            second = third;
-            if(third) third = second->next;
-        }
+        // while(second != NULL){
+        //     second->next = first;
+        //     first = second;
+        //     second = third;
+        //     if(third) third = second->next;
+        // }
         
-        return first;
+        // return first;
+        
+        return helper(first, second, third);
+    }
+    
+    struct Node* helper(struct Node* first, struct Node* second, struct Node* third){
+        if(!second) return first;
+        
+        second->next = first;
+        first = second;
+        second = third;
+        if(third) third = second->next;
+        
+        return helper(first, second, third);
+        
     }
     
 };
