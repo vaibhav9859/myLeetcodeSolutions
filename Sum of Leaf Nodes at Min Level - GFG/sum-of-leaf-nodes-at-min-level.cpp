@@ -117,26 +117,23 @@ class Solution
 public:
     int minLeafSum(Node *root)
     {
-        if(!root) return 0;
-        int lev = minLev(root);
+        unordered_map<int, int> sumMap;
+        int ans = INT_MAX;
+        preOrder(root, sumMap, ans, 1);   
         
-        return sum(root, lev);
+        return sumMap[ans];
     }
     
-    int minLev(Node* root, int curLev = 1){
-        if(!root) return INT_MAX;
+    void preOrder(Node* root, unordered_map<int, int> &sumMap, int &ans, int curLev){
+        if(!root) return;
         
-        if(!root->left and !root->right) return curLev;
+        if(!root->left and !root->right){
+            sumMap[curLev] += root->data;
+            ans = min(ans, curLev);
+        }
         
-        return min(minLev(root->left, curLev+1), minLev(root->right, curLev+1) );
-    }
-    
-    int sum(Node* root, int minLev, int curLev = 1){
-        if(!root) return 0;
-        
-        if(!root->left and !root->right and curLev == minLev) return root->data;
-        
-        return sum(root->left, minLev, curLev+1) + sum(root->right, minLev, curLev+1);
+        preOrder(root->left, sumMap, ans, curLev+1);
+        preOrder(root->right, sumMap, ans, curLev+1);
     }
 };
 
