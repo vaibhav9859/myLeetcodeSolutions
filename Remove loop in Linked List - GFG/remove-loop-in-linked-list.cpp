@@ -84,7 +84,7 @@ class Solution
         Node* slow = head;
         
         while(fast and fast->next){
-            prev = fast->next;
+            prev = fast->next; //IMP line
             fast = fast->next->next;
             slow = slow->next;
             
