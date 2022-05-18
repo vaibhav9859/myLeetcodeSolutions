@@ -33,29 +33,25 @@ class Solution
 {
     public:
     //Function to reverse a linked list.
+struct Node* reverseList(struct Node* head){
+    if(head == NULL or head->next == NULL){
+        return head;
+    }
+    
+    struct Node* prev = NULL;
+    struct Node* next = NULL;
+    struct Node* cur = head;
 
-struct Node* reverseList(struct Node* root){
-    if(!root or !root->next) return root;
 
-    struct Node* f = root; 
-    struct Node* s = root->next; 
-    struct Node* t = root->next->next;
-
-    f->next = NULL;
-
-    while(s != NULL){
-        s->next = f;
-        f = s;
-        s = t;
-        if(t) t = t->next;
+    while(cur != NULL){
+        next = cur->next;
+        cur->next = prev;
+        prev = cur; cur = next;
     }
 
-    return f;
+    return prev;
 }
     
-    
-    // 1<-2<-3
-    //   f  f  t
 };
     
 
