@@ -34,13 +34,13 @@ public:
 	    for(auto &adjNode: adj[node]){
 	        if(curMovVis[adjNode]) return false;
 	        
-	       // curMovVis[adjNode] = 1;
-	        
+	        curMovVis[adjNode] = 1;
+	       // 
 	        if(!vis[adjNode] and !hasCycle(adj, nVer, adjNode, vis, curMovVis)){
 	            return false;
 	        }
 	        
-	       // curMovVis[adjNode] = 0;
+	        curMovVis[adjNode] = 0;
 	    }
 	    
         curMovVis[node] = 0;
