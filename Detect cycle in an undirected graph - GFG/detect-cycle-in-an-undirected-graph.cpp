@@ -9,26 +9,21 @@ class Solution {
     bool isCycle(int V, vector<int> adj[]) {
         // Code here
         int nVer = V;
-        vector<int> vis(V, 0);
+        vector<int> vis(nVer, 0);
         
         for(int i=0; i<nVer; i++){
-            if(!vis[i]){
-                if(hasCycle(adj, nVer, vis, i)) return true;    
-            }
+             if(!vis[i] and hasCycle(adj, vis, i)) return true;
         }
         
         return false;
     }
     
-    bool hasCycle(vector<int> adj[], int nVer, vector<int> &vis, int node, int par=-1){
+    bool hasCycle(vector<int> adj[], vector<int> &vis, int node, int par = -1){
         vis[node] = 1;
         
         for(auto &adjNode: adj[node]){
-            if(adjNode != par){
-                if(vis[adjNode]) return true;
-                
-                if(hasCycle(adj, nVer, vis, adjNode, node)) return true;
-            }
+            if(adjNode == par) continue; 
+            if(vis[adjNode] == 1 or hasCycle(adj, vis, adjNode, node)) return true;
         }
         
         return false;
