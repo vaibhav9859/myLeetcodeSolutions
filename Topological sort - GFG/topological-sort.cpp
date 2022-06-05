@@ -17,7 +17,6 @@ class Solution
 	    for(int i=0; i<V; i++){
 	        if(!vis[i]){
 	            topoFinder(adj, i, st, vis);
-	           // st.push(i);
 	        }
 	    }
 	    
