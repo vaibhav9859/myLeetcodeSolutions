@@ -31,7 +31,7 @@ public:
     	        
     	        int curNode = q.front(); q.pop();
     	        
-    	        if(color[curNode] == 1-col) return false;
+    	       // if(color[curNode] == 1-col) return false;
     	        color[curNode] = col;
     	        
     	        for(auto adjNode: adj[curNode]){
