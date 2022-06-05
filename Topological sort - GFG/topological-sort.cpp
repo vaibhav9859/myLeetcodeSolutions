@@ -17,7 +17,7 @@ class Solution
 	    for(int i=0; i<V; i++){
 	        if(!vis[i]){
 	            topoFinder(adj, i, st, vis);
-	            st.push(i);
+	           // st.push(i);
 	        }
 	    }
 	    
@@ -35,9 +35,9 @@ class Solution
 	    for(auto &adjNode: adj[node]){
 	        if(!vis[adjNode]){
 	            topoFinder(adj, adjNode, st, vis);
-	            st.push(adjNode);
 	        }
 	    }
+	    st.push(node);
 	}
 };
 
