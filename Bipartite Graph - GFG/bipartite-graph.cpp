@@ -24,19 +24,17 @@ public:
 	    queue<int> q;
 	    q.push(node);
 	    int col = 0;
-	    
+	    color[node] = col;
         while(!q.empty()){
     	    int sz = q.size();
     	    for(int i=0; i<sz; i++){
     	        
     	        int curNode = q.front(); q.pop();
     	        
-    	       // if(color[curNode] == 1-col) return false;
-    	        color[curNode] = col;
-    	        
     	        for(auto adjNode: adj[curNode]){
     	            if(color[adjNode] == -1){
     	                q.push(adjNode);
+    	                color[adjNode] = 1-col;
     	            }
     	            else{
     	                if(color[adjNode] != 1-col) return false; 
