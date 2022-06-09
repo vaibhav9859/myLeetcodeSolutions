@@ -10,10 +10,10 @@ class Solution
 	int minStepToReachTarget(vector<int>&KnightPos,vector<int>&TargetPos,int N)
 	{
 	    // Code here
-	    int curCol = KnightPos[0]-1;
-	    int curRow = KnightPos[1]-1;
-	    int desCol = TargetPos[0]-1;
-	    int desRow = TargetPos[1]-1;
+	    int curCol = KnightPos[1]-1;
+	    int curRow = KnightPos[0]-1;
+	    int desCol = TargetPos[1]-1;
+	    int desRow = TargetPos[0]-1;
 	    
 	    vector<vector<int>> vis(N, vector<int>(N, 0));
 	    
