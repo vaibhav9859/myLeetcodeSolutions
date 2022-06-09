@@ -19,9 +19,9 @@ public:
         
         int reqEdges = connComp - 1;
         
-        if(reqEdges <= extraEdges){
-            return reqEdges;
-        }
+//         if(reqEdges <= extraEdges){
+//             return reqEdges;
+//         }
         
         return reqEdges;
     }
