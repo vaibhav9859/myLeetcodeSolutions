@@ -1,32 +1,31 @@
 class Solution {
 public:
     vector<vector<int>> combinationSum3(int k, int n) {
-        vector<int> curVec; 
+        vector<int> curVec;
+        vector<vector<int>> combSet;
+        allCombi(k, n, 1, curVec, combSet);
         
-        //You can't use unordered_set
-        //unordered_set can only be used by simple data types i.e. strings, int, char etc
-        set<vector<int>> ansSet;
-        
-        vector<vector<int>> output;
-        
-        combFinder(k, n, curVec, 0, ansSet, 1);
-        
-        for(auto &val: ansSet){
-            output.push_back(val);
-        }
-        
-        return output;
+        return combSet;
     }
     
-    void combFinder(int k, int n, vector<int> curVec, int curSum, set<vector<int>> &ansSet, int curVal){
-        if(k==0 and curSum == n){
-            ansSet.insert(curVec); return;
+    void allCombi(int k, int n, int index, vector<int> &curVec, vector<vector<int>> &combSet){
+ 
+        if(curVec.size() == k and n==0){
+            combSet.push_back(curVec);
+            return;
         }
-        if(k==0 or curVal == 10) return;
         
-        combFinder(k, n, curVec, curSum, ansSet, curVal+1);
+        // if(curVec.size() > k or n < 0 or index > 9) return;
         
-        curVec.push_back(curVal);
-        combFinder(k-1, n, curVec, curSum+curVal, ansSet, curVal+1);
+        
+        for(int i=index; i<=9; i++){
+            
+            n -= i;
+            curVec.push_back(i);
+            if(curVec.size() <= k and n>=0) allCombi(k, n, i+1, curVec, combSet);
+                
+            n += i;
+            curVec.pop_back();
+        }
     }
 };
