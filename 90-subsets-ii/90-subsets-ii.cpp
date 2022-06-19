@@ -11,6 +11,7 @@ public:
     }
     
     void subHelper(vector<int> &nums, int sz, int index, vector<int> &curVec, vector<vector<int>> &output){
+        //You don't even need to write this recursion call
         if(index == sz){
             output.push_back(curVec);
             return;
