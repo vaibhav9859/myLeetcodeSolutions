@@ -9,11 +9,12 @@ public:
     vector<int> subsetSums(vector<int> arr, int N)
     {
         vector<int> output;
-        sumHelper(arr, N, 0, 0, output);
+        int sum = 0;
+        sumHelper(arr, N, 0, sum, output);
         return output;
     }
     
-    void sumHelper(vector<int> &arr, int n, int index, int sum, vector<int> &output){
+    void sumHelper(vector<int> &arr, int n, int index, int &sum, vector<int> &output){
         if(index == n){
             output.push_back(sum);
             return;
