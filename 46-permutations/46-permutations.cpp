@@ -1,26 +1,35 @@
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
-        vector<vector<int>> output; set<vector<int>> s;
-        helper(nums, 0, s);
+        int sz = nums.size();
+        unordered_map<int, int> presentMap;
+        vector<int> curVec;
+        vector<vector<int>> output;
         
-        for(auto it: s){
-            output.push_back(it);
-        }
-        
+        permuteFinder(nums, sz, 0, presentMap, curVec, output);
+         
         return output;
     }
     
-    void helper(vector<int> &nums, int curPos, set<vector<int>> &s){
-        int sz = nums.size();
-        if(curPos == sz-1){
-            s.insert(nums); return;
+    
+    void permuteFinder(vector<int> &nums, int &sz, int pos, unordered_map<int, int> &presentMap, vector<int> &curVec, vector<vector<int>> &output){
+        if(sz == pos){
+            output.push_back(curVec);
+            return;
         }
         
-        for(int i=curPos; i<sz; i++){
-            vector<int> temp = nums;
-            swap(temp[curPos], temp[i]);
-            helper(temp, curPos+1, s);
+        for(int index=0; index<sz; index++){
+            if(!presentMap[index]){
+                
+                presentMap[index] = 1;
+                curVec.push_back(nums[index]);
+                
+                permuteFinder(nums, sz, pos+1, presentMap, curVec, output);
+                
+                presentMap[index] = 0;
+                curVec.pop_back();
+            }
         }
+ 
     }
 };
