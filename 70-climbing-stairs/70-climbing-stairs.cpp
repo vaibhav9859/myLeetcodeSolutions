@@ -1,15 +1,16 @@
 class Solution {
 public:
-    vector<int> dp;
-    int climbStairs(int n, int flag = 0) {
+   
+    int climbStairs(int n) {
         if(n==1 or n==2) return n;
         
-        if(!flag){
-            dp.resize(46, -1);
+        vector<int> dp(n+1);
+        dp[1] = 1; dp[2] = 2;
+        
+        for(int i=3; i<=n; i++){
+            dp[i] = dp[i-1] + dp[i-2];
         }
         
-        if(dp[n] != -1) return dp[n];
-        
-        return dp[n] = climbStairs(n-1) + climbStairs(n-2);
+        return dp[n];
     }
 };
