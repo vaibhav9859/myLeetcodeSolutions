@@ -24,12 +24,19 @@ class Solution
 	        maxVal = A[0];
 	    }
     	
-    	for(int i=2; i<N; i++){
-            if(A[i] < minVal) minVal = A[i];
-            else if(A[i] > maxVal){
-                maxVal = A[i];
+    	for(int i=2; i<N-1; i++){
+            if(A[i] <= A[i+1]){
+                if(A[i] < minVal) minVal = A[i];
+                if(A[i+1] > maxVal) maxVal = A[i+1];
+            }
+            else{
+                if(A[i] > maxVal) maxVal = A[i];
+                if(A[i+1] < minVal) minVal = A[i+1];
             }
     	}
+    	
+    	if(A[N-1] < minVal) minVal = A[N-1];
+    	else if(A[N-1] > maxVal) maxVal = A[N-1];
     	
     	return maxVal + minVal;
     }
