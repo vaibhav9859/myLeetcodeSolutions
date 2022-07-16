@@ -1,5 +1,5 @@
 # Max Min
-## Easy 
+##  Easy 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given an array<strong> A</strong> of size <strong>N</strong> of integers. Your task is to find the sum of&nbsp;<strong>minimum and maximum </strong>elements in the&nbsp;array.</span></p>
 
