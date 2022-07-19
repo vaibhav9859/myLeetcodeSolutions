@@ -1,19 +1,19 @@
 class Solution {
 public:
-    int maxSubArray(vector<int>& nums) {
-        int lMax = nums[0], gMax = nums[0];
+    int maxSubArray(vector<int>& arr) {
+        int localSum = arr[0], globalSum = arr[0];
+        int sz = arr.size();
         
-        for(int i=1; i<nums.size(); i++){
-            if(nums[i] > nums[i] + lMax){
-                lMax = nums[i];
+        for(int i=1; i<sz; i++){
+            if(localSum + arr[i] > arr[i]){
+                localSum += arr[i];
             }
-            else{
-                lMax += nums[i];
-            }
+            else localSum = arr[i];
             
-            gMax = max(gMax, lMax);
+            
+            globalSum = max(localSum, globalSum);
         }
         
-        return gMax;
+        return globalSum;
     }
 };
