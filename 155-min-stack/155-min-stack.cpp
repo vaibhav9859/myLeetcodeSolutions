@@ -10,8 +10,8 @@ public:
     MinStack() {
           // st.push(2);
         // st.pop();
-        st.clear();
-        minVal.clear();
+        // st.clear();
+        // minVal.clear();
     }
     
     void push(int val) {
