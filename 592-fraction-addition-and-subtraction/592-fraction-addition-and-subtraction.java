@@ -18,7 +18,7 @@ class Solution {
     return first + "/" + second;
   }
 
-  private int gcd(int a, int b) {
-    return a == 0 ? Math.abs(b) : gcd(b % a, a);
+  private int gcd(int num1, int num2) {
+    return num1 == 0 ? Math.abs(num2) : gcd(num2 % num1, num1);
   }
 }
