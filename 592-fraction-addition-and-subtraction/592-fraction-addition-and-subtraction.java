@@ -1,23 +1,21 @@
 class Solution {
   public String fractionAddition(String expression) {
+    int first = 0;
+    int second = 1;
+    
     Scanner sc = new Scanner(expression).useDelimiter("/|(?=[+-])");
-    int A = 0;
-    int B = 1;
 
-    // init: A / B = 0 / 1
-    // A / B + a / b = (Ab + aB) / Bb
-    // so, each round set A = Ab + aB, B = Bb
-    while (sc.hasNext()) {
-      final int a = sc.nextInt();
-      final int b = sc.nextInt();
-      A = A * b + a * B;
-      B *= b;
-      final int g = gcd(A, B);
-      A /= g;
-      B /= g;
+    for (;sc.hasNext();) {
+      final int valA = sc.nextInt();
+      final int valB = sc.nextInt();
+      first = first * valB + valA * second;
+      second *= valB;
+      final int g = gcd(first, second);
+      first /= g;
+      second /= g;
     }
 
-    return A + "/" + B;
+    return first + "/" + second;
   }
 
   private int gcd(int a, int b) {
