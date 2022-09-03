@@ -4,15 +4,16 @@ string fractionAddition(string expression) {
     istringstream in(expression);
     char chr;
 
-    int A = 0, B = 1, a, b;
+    int valA = 0, valB = 1;
+    int first, second;
 
-    while (in >> a >> chr >> b) {
-        A = A * b + a * B;
-        B *= b;
-        int g = abs(__gcd(A, B));
-        A /= g;
-        B /= g;
+    for(;in >> first >> chr >> second;) {
+        valA = valA * second + first * valB;
+        valB *= second;
+        int g = abs(__gcd(valA, valB));
+        valA /= g;
+        valB /= g;
     }
-    return to_string(A) + '/' + to_string(B);
+    return to_string(valA) + '/' + to_string(valB);
 }
 };
