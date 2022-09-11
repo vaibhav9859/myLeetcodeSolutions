@@ -6,12 +6,14 @@ public:
         int totCols = grid[0].size();
         
         int time = 0;
+        int totFresh = 0;
         
         for(int i=0; i<totRows; i++){
             for(int j=0; j<totCols; j++){
                 if(grid[i][j] == 2){
                     q.push({i, j});
                 }
+                if(grid[i][j]==1) totFresh++;
             }
         }
         
@@ -33,6 +35,7 @@ public:
                     
                     if(newRow >= 0 and newCol >= 0 and newRow < totRows and newCol < totCols and grid[newRow][newCol]==1){
                         grid[newRow][newCol] = 2;
+                        totFresh--;
                         q.push({newRow, newCol});
                     }
                 }
@@ -40,13 +43,15 @@ public:
             if(!q.empty()) time++;
         }
         
-        for(int i=0; i<totRows; i++){
-            for(int j=0; j<totCols; j++){
-                if(grid[i][j] == 1){
-                    return -1;
-                }
-            }
-        }
+        // for(int i=0; i<totRows; i++){
+        //     for(int j=0; j<totCols; j++){
+        //         if(grid[i][j] == 1){
+        //             return -1;
+        //         }
+        //     }
+        // }
+        
+        if(totFresh != 0) return -1;
         
         return time;
     }
