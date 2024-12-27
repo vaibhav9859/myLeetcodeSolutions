@@ -36,8 +36,7 @@ public:
             delete temp->prev;
         }
 
-        // if(temp) 
-        delete temp;
+        if(temp) delete temp;
     }
     
     string back(int steps) {
