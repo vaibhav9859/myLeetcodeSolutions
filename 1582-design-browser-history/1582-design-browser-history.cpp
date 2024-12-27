@@ -22,13 +22,22 @@ public:
     
     void visit(string url) {
         if(curPage->next){
-            curPage->next->prev = NULL;
-            curPage->next = NULL;
+            delForwardHist(curPage->next);
         }
 
         curPage->next = new Node(url);
         curPage->next->prev = curPage;
         curPage = curPage->next;
+    }
+
+    void delForwardHist(Node* temp){
+        while(temp and temp->next){
+            temp = temp->next;
+            delete temp->prev;
+        }
+
+        // if(temp) 
+        delete temp;
     }
     
     string back(int steps) {
