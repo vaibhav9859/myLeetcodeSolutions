@@ -14,6 +14,7 @@ My Leetcode solutions
 ## Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0146-lru-cache) |
 | [1582-design-browser-history](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1582-design-browser-history) |
 ## Stack
 |  |
@@ -22,10 +23,12 @@ My Leetcode solutions
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0146-lru-cache) |
 | [1582-design-browser-history](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1582-design-browser-history) |
 ## Doubly-Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0146-lru-cache) |
 | [1582-design-browser-history](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1582-design-browser-history) |
 ## Data Stream
 |  |
@@ -46,4 +49,8 @@ My Leetcode solutions
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+## Hash Table
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
