@@ -15,6 +15,7 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0146-lru-cache) |
+| [0206-reverse-linked-list](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0206-reverse-linked-list) |
 | [1582-design-browser-history](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1582-design-browser-history) |
 ## Stack
 |  |
@@ -53,4 +54,8 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0146-lru-cache) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
