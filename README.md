@@ -7,6 +7,7 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0058-length-of-last-word](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0058-length-of-last-word) |
+| [0127-word-ladder](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0127-word-ladder) |
 ## Array
 |  |
 | ------- |
@@ -53,9 +54,14 @@ My Leetcode solutions
 ## Hash Table
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0127-word-ladder) |
 | [0146-lru-cache](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0146-lru-cache) |
 ## Recursion
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0206-reverse-linked-list) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0127-word-ladder) |
 <!---LeetCode Topics End-->
