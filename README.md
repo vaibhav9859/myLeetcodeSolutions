@@ -41,16 +41,19 @@ My Leetcode solutions
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [1008-binary-tree-cameras](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1008-binary-tree-cameras) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [1008-binary-tree-cameras](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1008-binary-tree-cameras) |
 ## Binary Tree
 |  |
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [1008-binary-tree-cameras](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1008-binary-tree-cameras) |
 ## Hash Table
 |  |
 | ------- |
@@ -64,4 +67,8 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0127-word-ladder) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1008-binary-tree-cameras](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1008-binary-tree-cameras) |
 <!---LeetCode Topics End-->
