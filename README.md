@@ -11,6 +11,7 @@ My Leetcode solutions
 ## Array
 |  |
 | ------- |
+| [0833-bus-routes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0833-bus-routes) |
 | [1582-design-browser-history](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1582-design-browser-history) |
 ## Linked List
 |  |
@@ -59,6 +60,7 @@ My Leetcode solutions
 | ------- |
 | [0127-word-ladder](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0127-word-ladder) |
 | [0146-lru-cache](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0146-lru-cache) |
+| [0833-bus-routes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0833-bus-routes) |
 ## Recursion
 |  |
 | ------- |
@@ -67,6 +69,7 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0127-word-ladder) |
+| [0833-bus-routes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0833-bus-routes) |
 ## Dynamic Programming
 |  |
 | ------- |
