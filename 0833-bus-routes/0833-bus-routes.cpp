@@ -21,6 +21,9 @@ public:
             visRouteIdx.insert(routeIdx);
         }
 
+        // qRouteIdx.push(stopToRoute[source][0]);
+        // visRouteIdx.insert(stopToRoute[source][0]);
+
         int busReq = 1;
 
         while(!qRouteIdx.empty()){
