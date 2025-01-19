@@ -1,17 +1,17 @@
 class Solution {
 public:
-    // 5 2 3 1
+
     vector<int> sortArray(vector<int>& nums) {
         mergeSort(nums, 0, nums.size()-1);
         return nums;
     }
 
-    void mergeSort(vector<int> &nums, int start, int end){ // 5 2 3 1 start=0, end=3
+    void mergeSort(vector<int> &nums, int start, int end){ 
         if(start >= end) return;
 
-        int mid = (start + (end-start)/2); // mid = 1
-        mergeSort(nums, start, mid); // (nums, 0, 1)
-        mergeSort(nums, mid+1, end); // (nums, 0, 1)
+        int mid = (start + (end-start)/2); 
+        mergeSort(nums, start, mid); 
+        mergeSort(nums, mid+1, end); 
 
         merge(nums, start, mid, end);
     }
