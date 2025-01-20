@@ -8,7 +8,7 @@ public:
         return allComb;
     }
 
-    void allCombi(vector<int> &arr, int &target, vector<int> curComb, int curSum, int curIndex, vector<vector<int>> &allComb){
+    void allCombi(vector<int> &arr, int &target, vector<int> &curComb, int curSum, int curIndex, vector<vector<int>> &allComb){
         if(curIndex >= arr.size() or curSum > target) return;
         if(curSum == target){
             allComb.push_back(curComb);
