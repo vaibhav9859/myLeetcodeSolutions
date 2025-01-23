@@ -10,13 +10,9 @@ public:
         if(msgTS.find(message) == msgTS.end()){
             msgTS[message] = timestamp;
             return true;
-        } else {
-            if(timestamp >= msgTS[message] + 10){
-                msgTS[message] = timestamp;
-                return true;
-            } else {
-                return false;
-            }
+        } else if(timestamp >= msgTS[message] + 10){
+            msgTS[message] = timestamp;
+            return true;
         }
 
         return false;
