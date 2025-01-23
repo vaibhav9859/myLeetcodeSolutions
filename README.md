@@ -127,4 +127,12 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
+## Graph
+|  |
+| ------- |
+| [1101-parallel-courses](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1101-parallel-courses) |
+## Topological Sort
+|  |
+| ------- |
+| [1101-parallel-courses](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1101-parallel-courses) |
 <!---LeetCode Topics End-->
