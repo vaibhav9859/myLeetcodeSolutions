@@ -31,6 +31,7 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0146-lru-cache) |
+| [0295-find-median-from-data-stream](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0359-logger-rate-limiter) |
 | [0817-design-hashmap](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0817-design-hashmap) |
 | [1582-design-browser-history](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1582-design-browser-history) |
@@ -42,6 +43,7 @@ My Leetcode solutions
 ## Data Stream
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0359-logger-rate-limiter) |
 | [1582-design-browser-history](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1582-design-browser-history) |
 ## Tree
@@ -94,10 +96,12 @@ My Leetcode solutions
 ## Sorting
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0948-sort-an-array](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0948-sort-an-array) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0948-sort-an-array](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0948-sort-an-array) |
 ## Merge Sort
 |  |
@@ -119,4 +123,8 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0039-combination-sum) |
+## Two Pointers
+|  |
+| ------- |
+| [0295-find-median-from-data-stream](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
 <!---LeetCode Topics End-->
