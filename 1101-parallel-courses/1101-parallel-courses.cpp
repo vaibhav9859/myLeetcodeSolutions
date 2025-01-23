@@ -4,9 +4,9 @@ public:
         vector<int> adjList[n+1];
         unordered_map<int, int> inDeg;
 
-        for(auto &edge: relations){
-            adjList[edge[0]].push_back(edge[1]);
-            inDeg[edge[1]]++;
+        for(auto &edgeNodes: relations){
+            adjList[edgeNodes[0]].push_back(edgeNodes[1]);
+            inDeg[edgeNodes[1]]++;
         }
 
         queue<int> bfsQueue;
@@ -16,16 +16,12 @@ public:
         for(int i=1; i<=n; i++){
             if(inDeg.find(i) == inDeg.end()){
                 bfsQueue.push(i);
-                // visCount++;
             }
         }
-
-        
-        
+ 
         while(!bfsQueue.empty()){
             int sz = bfsQueue.size();
             semsReq++;
-            // visCount++;
 
             while(sz--){
                 int curCourse = bfsQueue.front();
@@ -44,6 +40,7 @@ public:
         }
 
         int ans = visCount == n ? semsReq : -1; 
+
 
         return ans;
         // return semsReq;
