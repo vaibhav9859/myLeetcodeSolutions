@@ -15,6 +15,7 @@ My Leetcode solutions
 | [0817-design-hashmap](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0817-design-hashmap) |
 | [0833-bus-routes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0833-bus-routes) |
 | [0948-sort-an-array](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0948-sort-an-array) |
+| [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
 | [1582-design-browser-history](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1582-design-browser-history) |
 ## Linked List
 |  |
@@ -57,6 +58,7 @@ My Leetcode solutions
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
 | [1008-binary-tree-cameras](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1008-binary-tree-cameras) |
 ## Binary Tree
 |  |
@@ -72,6 +74,7 @@ My Leetcode solutions
 | [0359-logger-rate-limiter](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0359-logger-rate-limiter) |
 | [0817-design-hashmap](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0817-design-hashmap) |
 | [0833-bus-routes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0833-bus-routes) |
+| [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
 ## Recursion
 |  |
 | ------- |
@@ -81,6 +84,7 @@ My Leetcode solutions
 | ------- |
 | [0127-word-ladder](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0127-word-ladder) |
 | [0833-bus-routes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0833-bus-routes) |
+| [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -135,4 +139,12 @@ My Leetcode solutions
 |  |
 | ------- |
 | [1101-parallel-courses](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1101-parallel-courses) |
+## Union Find
+|  |
+| ------- |
+| [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
+## Matrix
+|  |
+| ------- |
+| [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
 <!---LeetCode Topics End-->
