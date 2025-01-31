@@ -12,6 +12,7 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0040-combination-sum-ii) |
 | [0817-design-hashmap](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0817-design-hashmap) |
 | [0833-bus-routes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0833-bus-routes) |
 | [0948-sort-an-array](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0948-sort-an-array) |
@@ -128,6 +129,7 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0040-combination-sum-ii) |
 ## Two Pointers
 |  |
 | ------- |
