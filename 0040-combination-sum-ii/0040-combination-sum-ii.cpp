@@ -23,10 +23,7 @@ public:
         findAllComb(cand, target - cand[curIdx], curComb, curIdx+1, allComb);
         curComb.pop_back();
 
-        // Skip duplicates
-        while (curIdx + 1 < cand.size() && cand[curIdx] == cand[curIdx + 1]) {
-            curIdx++;
-        }
+        while(curIdx+1 < cand.size() and cand[curIdx+1] == cand[curIdx]) curIdx++;
 
         findAllComb(cand, target, curComb, curIdx+1, allComb);
     }
