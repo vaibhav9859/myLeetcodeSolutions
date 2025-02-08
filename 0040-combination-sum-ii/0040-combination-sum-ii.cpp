@@ -1,30 +1,30 @@
 class Solution {
 public:
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
-        vector<vector<int>> allComb;
-        vector<int> curComb;
         sort(candidates.begin(), candidates.end());
-        findAllComb(candidates, target, curComb, 0, allComb);
+        int sz = candidates.size();
+        vector<int> curComb;
+        vector<vector<int>> comb;
+        allComb(candidates, target, 0, sz, comb, curComb);
 
-        return allComb;
+        return comb;
     }
 
-    void findAllComb(vector<int>& cand, int target, vector<int> &curComb, int curIdx, vector<vector<int>> &allComb){
+    void allComb(vector<int> &cand, int target, int idx, int &sz, vector<vector<int>> &comb, vector<int> &curComb){
+        // if(idx >= sz) return;
+        if(target < 0) return;
+
         if(target == 0){
-            allComb.push_back(curComb);
+            comb.push_back(curComb);
             return;
         }
 
-        if(curIdx == cand.size() or target < 0){
-            return;
+        for(int i=idx; i<sz; i++){
+            if(i != idx and cand[i] == cand[i-1]) continue;
+            if(cand[i] > target) break;
+            curComb.push_back(cand[i]);
+            allComb(cand, target - cand[i], i+1, sz, comb, curComb);
+            curComb.pop_back();
         }
-
-        curComb.push_back(cand[curIdx]);
-        findAllComb(cand, target - cand[curIdx], curComb, curIdx+1, allComb);
-        curComb.pop_back();
-
-        while(curIdx+1 < cand.size() and cand[curIdx+1] == cand[curIdx]) curIdx++;
-
-        findAllComb(cand, target, curComb, curIdx+1, allComb);
     }
 };
