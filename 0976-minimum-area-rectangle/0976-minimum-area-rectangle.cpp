@@ -5,12 +5,14 @@ public:
     }
 
     int minAreaRect(vector<vector<int>>& points) {
-        set<pair<int, int>> uniquePts;
+        // set<pair<int, int>> uniquePts;
+        unordered_set<string> uniquePts;
         int sz = points.size();
         int minArea = INT_MAX;
 
         for(auto &point: points){
-            uniquePts.insert({point[0], point[1]});
+            // uniquePts.insert({point[0], point[1]});
+            uniquePts.insert(to_string(point[0]) + "," + to_string(point[1]));
         }
 
         for(int i=0; i<sz; i++){
@@ -21,7 +23,12 @@ public:
                 int y2 = points[j][1];
 
                 if(!checkCollinear(x1, y1, x2, y2)){
-                    if(uniquePts.find({x1,y2}) != uniquePts.end() and uniquePts.find({x2,y1}) != uniquePts.end()){
+                    // if(uniquePts.find({x1,y2}) != uniquePts.end() and uniquePts.find({x2,y1}) != uniquePts.end()){
+                    //     minArea = min(minArea, (abs(x1-x2) * abs(y1-y2)));
+                    // }
+
+                    if(uniquePts.find(to_string(x1)+","+to_string(y2)) != uniquePts.end() 
+                    and uniquePts.find(to_string(x2)+","+to_string(y1)) != uniquePts.end()){
                         minArea = min(minArea, (abs(x1-x2) * abs(y1-y2)));
                     }
                 }
