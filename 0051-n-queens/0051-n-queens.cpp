@@ -27,9 +27,9 @@ public:
         int dupRow = curRow;
         int dupCol = curCol;
         // Check curRow
-        while(curCol < sz){
-            if(board[curRow][curCol++] == 'Q') return false;
-        }
+        // while(curCol < sz){
+        //     if(board[curRow][curCol++] == 'Q') return false;
+        // }
 
         curCol = dupCol;
         while(curCol >= 0){
@@ -37,10 +37,10 @@ public:
         }
 
         // Check right diagonal
-        curCol = dupCol;
-        while(curRow <sz and curCol < sz){
-            if(board[curRow++][curCol++] == 'Q') return false;
-        }
+        // curCol = dupCol;
+        // while(curRow <sz and curCol < sz){
+        //     if(board[curRow++][curCol++] == 'Q') return false;
+        // }
 
         curRow = dupRow;
         curCol = dupCol;
@@ -50,11 +50,11 @@ public:
         
         
         // check left diagonal
-        curRow = dupRow;
-        curCol = dupCol;
-        while(curRow >= 0 and curCol < sz){
-            if(board[curRow--][curCol++] == 'Q') return false;
-        }
+        // curRow = dupRow;
+        // curCol = dupCol;
+        // while(curRow >= 0 and curCol < sz){
+        //     if(board[curRow--][curCol++] == 'Q') return false;
+        // }
 
         curRow = dupRow;
         curCol = dupCol;
