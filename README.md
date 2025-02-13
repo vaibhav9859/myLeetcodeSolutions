@@ -11,6 +11,7 @@ My Leetcode solutions
 ## Array
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0046-permutations) |
@@ -76,6 +77,7 @@ My Leetcode solutions
 ## Hash Table
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0037-sudoku-solver) |
 | [0127-word-ladder](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0127-word-ladder) |
 | [0146-lru-cache](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0146-lru-cache) |
 | [0359-logger-rate-limiter](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0359-logger-rate-limiter) |
@@ -136,6 +138,7 @@ My Leetcode solutions
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0046-permutations) |
@@ -164,6 +167,7 @@ My Leetcode solutions
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0037-sudoku-solver) |
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
 ## Minimum Spanning Tree
 |  |
