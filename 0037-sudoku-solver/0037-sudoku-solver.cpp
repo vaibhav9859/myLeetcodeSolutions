@@ -6,12 +6,12 @@ public:
     }
 
     bool solve(vector<vector<char>>& board, int &sz){
-        int anyEmptyPlace = 0;
+        // int anyEmptyPlace = 0;
 
         for(int row=0; row < sz; row++){
             for(int col = 0; col < sz; col++){
                 if(board[row][col] == '.'){
-                    anyEmptyPlace = 1;
+                    // anyEmptyPlace = 1;
                     for(char val = '1'; val <= '9'; val++){
                         if(isValidPlace(board, row, col, val)){
                             board[row][col] = val;
@@ -25,8 +25,8 @@ public:
             }
         }
 
-        if(!anyEmptyPlace) return true;
-        return false;
+        // if(!anyEmptyPlace) return true;
+        return true;
     }
 
     bool isValidPlace(vector<vector<char>>& board, int row, int col, int val){
