@@ -8,6 +8,7 @@ My Leetcode solutions
 | ------- |
 | [0058-length-of-last-word](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0058-length-of-last-word) |
 | [0127-word-ladder](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0127-word-ladder) |
+| [0131-palindrome-partitioning](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
 ## Array
 |  |
 | ------- |
@@ -98,6 +99,7 @@ My Leetcode solutions
 ## Dynamic Programming
 |  |
 | ------- |
+| [0131-palindrome-partitioning](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
 | [1008-binary-tree-cameras](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1008-binary-tree-cameras) |
 ## Hash Function
 |  |
@@ -145,6 +147,7 @@ My Leetcode solutions
 | [0051-n-queens](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0216-combination-sum-iii) |
 ## Two Pointers
 |  |
