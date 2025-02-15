@@ -22,6 +22,7 @@ My Leetcode solutions
 | [0090-subsets-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0216-combination-sum-iii) |
 | [0252-meeting-rooms](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0252-meeting-rooms) |
+| [0253-meeting-rooms-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
 | [0817-design-hashmap](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0817-design-hashmap) |
 | [0833-bus-routes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0833-bus-routes) |
 | [0948-sort-an-array](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0948-sort-an-array) |
@@ -116,12 +117,14 @@ My Leetcode solutions
 | ------- |
 | [0056-merge-intervals](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0056-merge-intervals) |
 | [0252-meeting-rooms](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0252-meeting-rooms) |
+| [0253-meeting-rooms-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0948-sort-an-array](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0948-sort-an-array) |
 | [0976-minimum-area-rectangle](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0976-minimum-area-rectangle) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0253-meeting-rooms-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0948-sort-an-array](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0948-sort-an-array) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1100-connecting-cities-with-minimum-cost) |
@@ -156,6 +159,7 @@ My Leetcode solutions
 ## Two Pointers
 |  |
 | ------- |
+| [0253-meeting-rooms-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
 ## Graph
 |  |
@@ -193,4 +197,12 @@ My Leetcode solutions
 | ------- |
 | [0078-subsets](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0090-subsets-ii) |
+## Greedy
+|  |
+| ------- |
+| [0253-meeting-rooms-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
+## Prefix Sum
+|  |
+| ------- |
+| [0253-meeting-rooms-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
 <!---LeetCode Topics End-->
