@@ -20,6 +20,7 @@ My Leetcode solutions
 | [0078-subsets](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0216-combination-sum-iii) |
+| [0252-meeting-rooms](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0252-meeting-rooms) |
 | [0817-design-hashmap](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0817-design-hashmap) |
 | [0833-bus-routes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0833-bus-routes) |
 | [0948-sort-an-array](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0948-sort-an-array) |
@@ -112,6 +113,7 @@ My Leetcode solutions
 ## Sorting
 |  |
 | ------- |
+| [0252-meeting-rooms](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0252-meeting-rooms) |
 | [0295-find-median-from-data-stream](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0948-sort-an-array](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0948-sort-an-array) |
 | [0976-minimum-area-rectangle](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0976-minimum-area-rectangle) |
