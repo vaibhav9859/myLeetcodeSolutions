@@ -1,11 +1,11 @@
 class Solution {
 public:
 
-    struct compare {
-        bool operator()(const vector<int>& a, const vector<int>& b) {
-            return a[1] > b[1]; // Min heap based on end times
+    struct compare{
+        bool operator()(vector<int> int1, vector<int> int2){
+            return int1[1] > int2[1];
         }
-    };
+    }; 
 
     int minMeetingRooms(vector<vector<int>>& intervals) {
         sort(intervals.begin(), intervals.end());
