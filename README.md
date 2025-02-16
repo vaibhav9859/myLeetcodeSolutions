@@ -21,6 +21,7 @@ My Leetcode solutions
 | [0056-merge-intervals](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0090-subsets-ii) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0216-combination-sum-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0216-combination-sum-iii) |
 | [0252-meeting-rooms](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
@@ -161,6 +162,7 @@ My Leetcode solutions
 ## Two Pointers
 |  |
 | ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0253-meeting-rooms-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
 ## Graph
@@ -207,4 +209,8 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0253-meeting-rooms-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
+## Binary Search
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 <!---LeetCode Topics End-->
