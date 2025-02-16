@@ -12,6 +12,7 @@ My Leetcode solutions
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0001-two-sum) |
 | [0037-sudoku-solver](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0040-combination-sum-ii) |
@@ -81,6 +82,7 @@ My Leetcode solutions
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0001-two-sum) |
 | [0037-sudoku-solver](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0037-sudoku-solver) |
 | [0127-word-ladder](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0127-word-ladder) |
 | [0146-lru-cache](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0146-lru-cache) |
