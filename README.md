@@ -13,6 +13,7 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0001-two-sum) |
+| [0015-3sum](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0015-3sum) |
 | [0037-sudoku-solver](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0040-combination-sum-ii) |
@@ -118,6 +119,7 @@ My Leetcode solutions
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0056-merge-intervals) |
 | [0252-meeting-rooms](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
@@ -162,6 +164,7 @@ My Leetcode solutions
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0015-3sum) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0253-meeting-rooms-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
