@@ -1,17 +1,18 @@
 class Solution {
 public:
     int climbStairs(int n) {
-        if(n==1 or n==2) return n;
-        vector<int> dp(n+1, -1);
-        dp[1] = 1; dp[2] = 2;
-        return countWays(n, dp);
-        return dp[n];
+        int prev = 2, prev2 = 1;
+        if(n == 1 or n == 2) return n;
+        int curVal = prev + prev2;
+
+        for(int i=4; i<=n; i++){
+            prev2 = prev;
+            prev = curVal;
+            curVal = prev + prev2;
+        }
+
+        return curVal;
     }
 
-    int countWays(int n, vector<int> &dp){
-        if(n==1 or n==2) return n;
-        if(dp[n] != -1) return dp[n];
-
-        return dp[n] = countWays(n-1, dp) + countWays(n-2, dp);
-    }
+    
 };
