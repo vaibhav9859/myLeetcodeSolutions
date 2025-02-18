@@ -109,6 +109,7 @@ My Leetcode solutions
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0070-climbing-stairs) |
 | [0131-palindrome-partitioning](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
 | [1008-binary-tree-cameras](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1008-binary-tree-cameras) |
 ## Hash Function
@@ -199,6 +200,7 @@ My Leetcode solutions
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0070-climbing-stairs) |
 | [0976-minimum-area-rectangle](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0976-minimum-area-rectangle) |
 ## Geometry
 |  |
@@ -221,4 +223,8 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
