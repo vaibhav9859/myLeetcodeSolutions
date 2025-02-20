@@ -27,6 +27,7 @@ My Leetcode solutions
 | [0216-combination-sum-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0216-combination-sum-iii) |
 | [0252-meeting-rooms](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
+| [0403-frog-jump](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0403-frog-jump) |
 | [0747-min-cost-climbing-stairs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0747-min-cost-climbing-stairs) |
 | [0817-design-hashmap](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0817-design-hashmap) |
 | [0833-bus-routes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0833-bus-routes) |
@@ -112,6 +113,7 @@ My Leetcode solutions
 | ------- |
 | [0070-climbing-stairs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0070-climbing-stairs) |
 | [0131-palindrome-partitioning](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
+| [0403-frog-jump](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0403-frog-jump) |
 | [0747-min-cost-climbing-stairs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0747-min-cost-climbing-stairs) |
 | [1008-binary-tree-cameras](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1008-binary-tree-cameras) |
 ## Hash Function
