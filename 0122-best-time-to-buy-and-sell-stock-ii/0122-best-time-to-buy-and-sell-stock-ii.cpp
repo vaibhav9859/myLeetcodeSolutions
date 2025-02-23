@@ -15,7 +15,7 @@ public:
         
         if(buy){
             // Let's buy
-            int bCase = (-1) * prices[curIdx] + profit(prices, 0, curIdx+1, dp);
+            int bCase = -prices[curIdx] + profit(prices, 0, curIdx+1, dp);
 
             // Don't buy
             int dbCase = profit(prices, 1, curIdx+1, dp);
