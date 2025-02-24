@@ -2,7 +2,7 @@ class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
         int sz = nums.size();
-        vector<vector<int>> dp(sz+1, vector<int>(sz+1, -1));
+        vector<vector<int>> dp(sz+1, vector<int>(sz+2, -1));
         return maxLen(nums, 0, -1, dp);
     }
 
@@ -11,28 +11,7 @@ public:
 
         int len = INT_MIN;
 
-        if(prevIdx != -1 and dp[curIdx][prevIdx] != -1) return dp[curIdx][prevIdx];
-
-        // if(prevIdx == -1){
-        //     // consider present element in seq
-        //     len = max(len, 1 + maxLen(nums, curIdx+1, curIdx, dp));
-
-        //     // don't consider present element in seq
-        //     len = max(len, maxLen(nums, curIdx+1, prevIdx, dp));
-        // }
-        // else{
-        //     if(nums[curIdx] > nums[prevIdx]){
-        //         // consider present element in seq
-        //         len = max(len, 1 + maxLen(nums, curIdx+1, curIdx, dp));
-
-        //         // don't consider present element in seq
-        //         len = max(len, maxLen(nums, curIdx+1, prevIdx, dp));
-        //     }
-        //     else {
-        //         // don't consider present element in seq
-        //         len = max(len, maxLen(nums, curIdx+1, prevIdx, dp));
-        //     }
-        // }
+        if(dp[curIdx][prevIdx+1] != -1) return dp[curIdx][prevIdx+1];
 
         if(prevIdx == -1 or nums[curIdx] > nums[prevIdx]){
             // consider present element in seq
@@ -42,7 +21,6 @@ public:
         // don't consider present element in seq
         len = max(len, maxLen(nums, curIdx+1, prevIdx, dp));
 
-        if(prevIdx != -1) return dp[curIdx][prevIdx] = len;
-        return len;
+        return dp[curIdx][prevIdx+1] = len;
     }
 };
