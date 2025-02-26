@@ -1,21 +1,44 @@
 class Solution {
 public:
-    int lengthOfLIS(vector<int>& nums) {
-        int maxLen = 1;
-        int sz = nums.size();
+    void upper(vector<int> &lonSubSeq, int val){
+        int start = 0, end = lonSubSeq.size()-1;
+        int loc;
 
-        vector<int> dp(sz, 1);
+        while(start <= end){
+            int mid = (start+end)/2;
 
-        for(int curIdx = 1; curIdx < sz; curIdx++){
-            for(int fromStart=0; fromStart < curIdx; fromStart++){
-                if(nums[curIdx] > nums[fromStart]){
-                    dp[curIdx] = max(dp[curIdx], 1 + dp[fromStart]);
-
-                    maxLen = max(maxLen, dp[curIdx]);
-                }
+            if(val == lonSubSeq[mid]){
+                return;
+            }
+            else if(val < lonSubSeq[mid]){
+                loc = mid;
+                end = mid-1;
+            }
+            else{
+                start = mid+1;
             }
         }
 
-        return maxLen;
+        lonSubSeq[loc] = val;
+        return;
+    }
+
+    int lengthOfLIS(vector<int>& nums) {
+        int sz = nums.size();
+        vector<int> lonSubSeq;
+
+        for(int i=0; i<sz; i++){
+            if(lonSubSeq.empty()){
+                lonSubSeq.push_back(nums[i]);
+            }    
+            else if(lonSubSeq[lonSubSeq.size()-1] < nums[i]) {
+                lonSubSeq.push_back(nums[i]);
+            }
+            else{
+                upper(lonSubSeq, nums[i]);
+            }
+        }
+
+        return lonSubSeq.size();
     }
 };
