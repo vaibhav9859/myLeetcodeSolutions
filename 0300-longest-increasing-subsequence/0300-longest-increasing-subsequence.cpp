@@ -31,11 +31,13 @@ public:
             if(lonSubSeq.empty()){
                 lonSubSeq.push_back(nums[i]);
             }    
-            else if(lonSubSeq[lonSubSeq.size()-1] < nums[i]) {
+            else if(lonSubSeq.back() < nums[i]) {
                 lonSubSeq.push_back(nums[i]);
             }
             else{
-                upper(lonSubSeq, nums[i]);
+                // upper(lonSubSeq, nums[i]);
+                int loc = lower_bound(lonSubSeq.begin(), lonSubSeq.end(), nums[i]) - lonSubSeq.begin();
+                lonSubSeq[loc] = nums[i];
             }
         }
 
