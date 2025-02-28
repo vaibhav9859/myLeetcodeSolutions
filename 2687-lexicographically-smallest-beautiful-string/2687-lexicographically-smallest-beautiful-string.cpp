@@ -20,9 +20,9 @@ public:
         int sz = s.size();
 
         for(int end = sz-1; end>=0; end--){
-            for(int i=0; i<k; i++){
-                char curChar = (char)('a' + i);
-                if(curChar <= s[end]) continue;
+            for(char curChar = s[end]+1; curChar < 'a'+k; curChar++){
+                // char curChar = (char)('a' + i);
+                // if(curChar <= s[end]) continue;
 
                 if(!isPalin(s, curChar, end)){
                     s[end] = curChar;
