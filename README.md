@@ -9,6 +9,7 @@ My Leetcode solutions
 | [0058-length-of-last-word](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0058-length-of-last-word) |
 | [0127-word-ladder](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
+| [2528-number-of-valid-clock-times](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2528-number-of-valid-clock-times) |
 | [2687-lexicographically-smallest-beautiful-string](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2687-lexicographically-smallest-beautiful-string) |
 ## Array
 |  |
@@ -275,4 +276,8 @@ My Leetcode solutions
 | ------- |
 | [1002-maximum-width-ramp](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1002-maximum-width-ramp) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
+## Enumeration
+|  |
+| ------- |
+| [2528-number-of-valid-clock-times](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2528-number-of-valid-clock-times) |
 <!---LeetCode Topics End-->
