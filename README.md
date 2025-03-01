@@ -46,6 +46,7 @@ My Leetcode solutions
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1582-design-browser-history](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1582-design-browser-history) |
+| [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 ## Linked List
 |  |
 | ------- |
@@ -83,6 +84,7 @@ My Leetcode solutions
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [1008-binary-tree-cameras](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1008-binary-tree-cameras) |
 | [1207-delete-nodes-and-return-forest](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
+| [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -92,6 +94,7 @@ My Leetcode solutions
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
 | [1008-binary-tree-cameras](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1008-binary-tree-cameras) |
 | [1207-delete-nodes-and-return-forest](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
+| [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 ## Binary Tree
 |  |
 | ------- |
@@ -99,6 +102,7 @@ My Leetcode solutions
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [1008-binary-tree-cameras](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1008-binary-tree-cameras) |
 | [1207-delete-nodes-and-return-forest](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
+| [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 ## Hash Table
 |  |
 | ------- |
@@ -123,6 +127,7 @@ My Leetcode solutions
 | [0200-number-of-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0200-number-of-islands) |
 | [0833-bus-routes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0833-bus-routes) |
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
+| [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 ## Dynamic Programming
 |  |
 | ------- |
