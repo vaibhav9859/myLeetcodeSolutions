@@ -44,6 +44,7 @@ My Leetcode solutions
 | [0948-sort-an-array](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0948-sort-an-array) |
 | [0976-minimum-area-rectangle](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0976-minimum-area-rectangle) |
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
+| [1002-maximum-width-ramp](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1002-maximum-width-ramp) |
 | [1207-delete-nodes-and-return-forest](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1582-design-browser-history](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1582-design-browser-history) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
@@ -58,6 +59,7 @@ My Leetcode solutions
 ## Stack
 |  |
 | ------- |
+| [1002-maximum-width-ramp](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1002-maximum-width-ramp) |
 | [1582-design-browser-history](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1582-design-browser-history) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
 ## Design
@@ -208,6 +210,7 @@ My Leetcode solutions
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0253-meeting-rooms-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
+| [1002-maximum-width-ramp](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1002-maximum-width-ramp) |
 ## Graph
 |  |
 | ------- |
@@ -270,5 +273,6 @@ My Leetcode solutions
 ## Monotonic Stack
 |  |
 | ------- |
+| [1002-maximum-width-ramp](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1002-maximum-width-ramp) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
 <!---LeetCode Topics End-->
