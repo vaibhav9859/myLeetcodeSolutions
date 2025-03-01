@@ -14,7 +14,7 @@ public:
         for(int i=0; i<sz; i++){
             while(!st.empty() and nums[i] <= nums[st.top()]){
                 if(nums[i] == nums[st.top()] and i == st.top()){
-                    // st.pop();
+                    st.pop();
                     break;
                 }
                 ans = max(ans, st.top()-i);
