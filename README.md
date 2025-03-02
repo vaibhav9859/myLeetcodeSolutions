@@ -241,6 +241,7 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0070-climbing-stairs) |
+| [0172-factorial-trailing-zeroes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0172-factorial-trailing-zeroes) |
 | [0976-minimum-area-rectangle](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0976-minimum-area-rectangle) |
 ## Geometry
 |  |
