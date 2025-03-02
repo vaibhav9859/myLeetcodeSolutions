@@ -2,8 +2,8 @@ class Solution {
 public:
 
     struct Compare {
-        bool operator()(pair<int, int> p1, pair<int, int> p2){
-            return p1.first > p2.first;
+        bool operator()(vector<int> v1, vector<int> v2){
+            return v1[1] > v2[1];
         }
     };
 
@@ -11,19 +11,19 @@ public:
         sort(intervals.begin(), intervals.end());
         int sz = intervals.size();
         
-        priority_queue<pair<int, int>, vector<pair<int, int>>, Compare> minHeap;
+        priority_queue<vector<int>, vector<vector<int>>, Compare> minHeap;
 
         int ans = 1;
-        minHeap.push({intervals[0][1], intervals[0][0]});
+        minHeap.push(intervals[0]);
 
         for(int i=1; i < sz; i++){
-            if(intervals[i][0] >= minHeap.top().first){
+            if(intervals[i][0] >= minHeap.top()[1]){
                 minHeap.pop();
-                minHeap.push({intervals[i][1], intervals[i][0]});
+                minHeap.push(intervals[i]);
             }
             else {
                 ans++;
-                minHeap.push({intervals[i][1], intervals[i][0]});
+                minHeap.push(intervals[i]);
             }
         }
 
