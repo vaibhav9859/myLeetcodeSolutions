@@ -49,6 +49,7 @@ My Leetcode solutions
 | [1207-delete-nodes-and-return-forest](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1582-design-browser-history](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1582-design-browser-history) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2118-maximum-earnings-from-taxi](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2118-maximum-earnings-from-taxi) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
@@ -154,6 +155,7 @@ My Leetcode solutions
 | [0747-min-cost-climbing-stairs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0747-min-cost-climbing-stairs) |
 | [1008-binary-tree-cameras](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1008-binary-tree-cameras) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1352-maximum-profit-in-job-scheduling) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2118-maximum-earnings-from-taxi](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2118-maximum-earnings-from-taxi) |
 ## Hash Function
 |  |
@@ -174,6 +176,7 @@ My Leetcode solutions
 | [0948-sort-an-array](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0948-sort-an-array) |
 | [0976-minimum-area-rectangle](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0976-minimum-area-rectangle) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1352-maximum-profit-in-job-scheduling) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2118-maximum-earnings-from-taxi](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2118-maximum-earnings-from-taxi) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
 ## Heap (Priority Queue)
@@ -276,6 +279,7 @@ My Leetcode solutions
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0300-longest-increasing-subsequence](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0300-longest-increasing-subsequence) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1352-maximum-profit-in-job-scheduling) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2118-maximum-earnings-from-taxi](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2118-maximum-earnings-from-taxi) |
 ## Memoization
 |  |
