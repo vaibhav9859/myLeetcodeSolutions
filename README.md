@@ -105,6 +105,7 @@ My Leetcode solutions
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
 | [1008-binary-tree-cameras](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1008-binary-tree-cameras) |
 | [1207-delete-nodes-and-return-forest](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
+| [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 ## Binary Tree
 |  |
@@ -141,6 +142,7 @@ My Leetcode solutions
 | [0547-number-of-provinces](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0547-number-of-provinces) |
 | [0833-bus-routes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0833-bus-routes) |
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
+| [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 ## Dynamic Programming
 |  |
@@ -236,6 +238,7 @@ My Leetcode solutions
 | [0547-number-of-provinces](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0547-number-of-provinces) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1100-connecting-cities-with-minimum-cost) |
 | [1101-parallel-courses](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1101-parallel-courses) |
+| [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Topological Sort
 |  |
 | ------- |
@@ -248,6 +251,7 @@ My Leetcode solutions
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1100-connecting-cities-with-minimum-cost) |
+| [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Matrix
 |  |
 | ------- |
