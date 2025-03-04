@@ -23,7 +23,7 @@ public:
         while(!q.empty()){
             int sz = q.size();
   
-            while(sz--){
+            // while(sz--){
                 int curNode = q.front();
                 q.pop();
                 for(int i=0; i<n; i++){
@@ -32,7 +32,7 @@ public:
                         q.push(i);
                     }
                 }
-            }
+            // }
             
         }
 
