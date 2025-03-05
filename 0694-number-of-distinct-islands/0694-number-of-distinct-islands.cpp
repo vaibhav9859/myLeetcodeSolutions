@@ -35,10 +35,10 @@ public:
                 vis[newRow][newCol] = 1;
                 curDir += dirStr[i];
                 dfs(grid, newRow, newCol, vis, islands, dir, dirStr, curDir);
-                curDir += 'B';
+                
             }
         }
 
-        
+        curDir += 'B';
     }
 };
