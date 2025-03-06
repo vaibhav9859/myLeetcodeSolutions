@@ -49,6 +49,7 @@ My Leetcode solutions
 | [0976-minimum-area-rectangle](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0976-minimum-area-rectangle) |
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
 | [1002-maximum-width-ramp](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1002-maximum-width-ramp) |
+| [1036-rotting-oranges](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1036-rotting-oranges) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1207-delete-nodes-and-return-forest](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1352-maximum-profit-in-job-scheduling) |
@@ -151,6 +152,7 @@ My Leetcode solutions
 | [0694-number-of-distinct-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0694-number-of-distinct-islands) |
 | [0833-bus-routes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0833-bus-routes) |
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
+| [1036-rotting-oranges](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1036-rotting-oranges) |
 | [2035-count-sub-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2035-count-sub-islands) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
@@ -274,6 +276,7 @@ My Leetcode solutions
 | [0037-sudoku-solver](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0037-sudoku-solver) |
 | [0200-number-of-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0200-number-of-islands) |
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
+| [1036-rotting-oranges](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1036-rotting-oranges) |
 | [2035-count-sub-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2035-count-sub-islands) |
 ## Minimum Spanning Tree
 |  |
