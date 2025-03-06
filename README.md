@@ -55,6 +55,7 @@ My Leetcode solutions
 | [1352-maximum-profit-in-job-scheduling](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1582-design-browser-history](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1582-design-browser-history) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
+| [1962-single-threaded-cpu](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1962-single-threaded-cpu) |
 | [2035-count-sub-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2035-count-sub-islands) |
 | [2118-maximum-earnings-from-taxi](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2118-maximum-earnings-from-taxi) |
 | [2205-find-good-days-to-rob-the-bank](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2205-find-good-days-to-rob-the-bank) |
@@ -200,6 +201,7 @@ My Leetcode solutions
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
+| [1962-single-threaded-cpu](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1962-single-threaded-cpu) |
 | [2118-maximum-earnings-from-taxi](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2118-maximum-earnings-from-taxi) |
 | [2479-meeting-rooms-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2479-meeting-rooms-iii) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
@@ -210,6 +212,7 @@ My Leetcode solutions
 | [0295-find-median-from-data-stream](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0948-sort-an-array](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0948-sort-an-array) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1100-connecting-cities-with-minimum-cost) |
+| [1962-single-threaded-cpu](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1962-single-threaded-cpu) |
 | [2479-meeting-rooms-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2479-meeting-rooms-iii) |
 ## Merge Sort
 |  |
