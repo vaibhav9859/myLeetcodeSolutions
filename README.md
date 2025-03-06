@@ -44,6 +44,7 @@ My Leetcode solutions
 | [0747-min-cost-climbing-stairs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0747-min-cost-climbing-stairs) |
 | [0817-design-hashmap](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0817-design-hashmap) |
 | [0833-bus-routes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0833-bus-routes) |
+| [0890-lemonade-change](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0890-lemonade-change) |
 | [0948-sort-an-array](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0948-sort-an-array) |
 | [0976-minimum-area-rectangle](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0976-minimum-area-rectangle) |
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
@@ -300,6 +301,7 @@ My Leetcode solutions
 | [0253-meeting-rooms-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
 | [0455-assign-cookies](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0455-assign-cookies) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0890-lemonade-change](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0890-lemonade-change) |
 | [2687-lexicographically-smallest-beautiful-string](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2687-lexicographically-smallest-beautiful-string) |
 ## Prefix Sum
 |  |
