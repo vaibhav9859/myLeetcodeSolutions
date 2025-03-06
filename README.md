@@ -38,6 +38,7 @@ My Leetcode solutions
 | [0300-longest-increasing-subsequence](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0403-frog-jump](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0403-frog-jump) |
+| [0665-non-decreasing-array](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0665-non-decreasing-array) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0747-min-cost-climbing-stairs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0747-min-cost-climbing-stairs) |
 | [0817-design-hashmap](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0817-design-hashmap) |
