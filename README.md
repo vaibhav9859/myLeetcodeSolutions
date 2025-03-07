@@ -19,6 +19,7 @@ My Leetcode solutions
 | [0037-sudoku-solver](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0040-combination-sum-ii) |
+| [0045-jump-game-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0055-jump-game) |
@@ -161,6 +162,7 @@ My Leetcode solutions
 ## Dynamic Programming
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -305,6 +307,7 @@ My Leetcode solutions
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0253-meeting-rooms-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
