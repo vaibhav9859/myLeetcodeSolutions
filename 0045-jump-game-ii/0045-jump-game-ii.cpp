@@ -7,14 +7,14 @@ public:
         int sz = nums.size();
 
         while(maxR < sz-1){
-            int newMaxR = maxR;
+            int farthest = 0;
             for(int i=minR; i<=maxR; i++){
-                newMaxR = max(newMaxR, nums[i] + i);
+                farthest = max(farthest, nums[i] + i);
             }
 
             jumps++;
             minR = maxR+1;
-            maxR = newMaxR;
+            maxR = farthest;
         }   
 
         return jumps;
