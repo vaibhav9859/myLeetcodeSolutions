@@ -16,21 +16,24 @@ public:
         }
 
         // run a loop starting from day 1 till max days
+        
+        // IMP: FIRST make sure to get out the events jiske end day < curday
         // make sure to push events which start on this current day
-        // make sure to get out the events jiske end day < curday
 
         // MAIN LOGIC: Now choose top from heap for the current day
         // pop that from heap... keep running the loop
         int curEvent = 0;
 
         for(int day=1; day<=maxDays; day++){
-            while(!minHeap.empty() and minHeap.top() < day){
-                minHeap.pop();
-            }
+            
             
             while(curEvent<sz and events[curEvent][0] <= day){
                 minHeap.push(events[curEvent][1]);
                 curEvent++;
+            }
+
+            while(!minHeap.empty() and minHeap.top() < day){
+                minHeap.pop();
             }
 
             if(!minHeap.empty()){
