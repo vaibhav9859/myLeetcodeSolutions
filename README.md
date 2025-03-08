@@ -62,6 +62,7 @@ My Leetcode solutions
 | [2035-count-sub-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2035-count-sub-islands) |
 | [2118-maximum-earnings-from-taxi](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2118-maximum-earnings-from-taxi) |
 | [2205-find-good-days-to-rob-the-bank](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2205-find-good-days-to-rob-the-bank) |
+| [2206-detonate-the-maximum-bombs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2479-meeting-rooms-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2479-meeting-rooms-iii) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [3158-maximum-length-of-semi-decreasing-subarrays](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/3158-maximum-length-of-semi-decreasing-subarrays) |
@@ -117,6 +118,7 @@ My Leetcode solutions
 | [1008-binary-tree-cameras](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1008-binary-tree-cameras) |
 | [1207-delete-nodes-and-return-forest](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [2035-count-sub-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2035-count-sub-islands) |
+| [2206-detonate-the-maximum-bombs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 ## Binary Tree
@@ -158,6 +160,7 @@ My Leetcode solutions
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1036-rotting-oranges) |
 | [2035-count-sub-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2035-count-sub-islands) |
+| [2206-detonate-the-maximum-bombs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 ## Dynamic Programming
@@ -264,6 +267,7 @@ My Leetcode solutions
 | [0547-number-of-provinces](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0547-number-of-provinces) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1100-connecting-cities-with-minimum-cost) |
 | [1101-parallel-courses](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1101-parallel-courses) |
+| [2206-detonate-the-maximum-bombs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Topological Sort
 |  |
@@ -298,10 +302,12 @@ My Leetcode solutions
 | [0070-climbing-stairs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0070-climbing-stairs) |
 | [0172-factorial-trailing-zeroes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0172-factorial-trailing-zeroes) |
 | [0976-minimum-area-rectangle](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0976-minimum-area-rectangle) |
+| [2206-detonate-the-maximum-bombs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2206-detonate-the-maximum-bombs) |
 ## Geometry
 |  |
 | ------- |
 | [0976-minimum-area-rectangle](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0976-minimum-area-rectangle) |
+| [2206-detonate-the-maximum-bombs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2206-detonate-the-maximum-bombs) |
 ## Bit Manipulation
 |  |
 | ------- |
