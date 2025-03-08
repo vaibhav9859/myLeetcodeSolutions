@@ -55,6 +55,7 @@ My Leetcode solutions
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1207-delete-nodes-and-return-forest](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1352-maximum-profit-in-job-scheduling) |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1582-design-browser-history](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1582-design-browser-history) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1962-single-threaded-cpu](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1962-single-threaded-cpu) |
@@ -204,6 +205,7 @@ My Leetcode solutions
 | [0976-minimum-area-rectangle](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0976-minimum-area-rectangle) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1352-maximum-profit-in-job-scheduling) |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1962-single-threaded-cpu](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1962-single-threaded-cpu) |
 | [2118-maximum-earnings-from-taxi](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2118-maximum-earnings-from-taxi) |
@@ -216,6 +218,7 @@ My Leetcode solutions
 | [0295-find-median-from-data-stream](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0948-sort-an-array](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0948-sort-an-array) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1100-connecting-cities-with-minimum-cost) |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1962-single-threaded-cpu](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1962-single-threaded-cpu) |
 | [2479-meeting-rooms-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2479-meeting-rooms-iii) |
 ## Merge Sort
@@ -314,6 +317,7 @@ My Leetcode solutions
 | [0455-assign-cookies](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0455-assign-cookies) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0890-lemonade-change](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0890-lemonade-change) |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [2687-lexicographically-smallest-beautiful-string](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2687-lexicographically-smallest-beautiful-string) |
 ## Prefix Sum
 |  |
