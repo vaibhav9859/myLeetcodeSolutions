@@ -9,6 +9,7 @@ My Leetcode solutions
 | [0058-length-of-last-word](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0058-length-of-last-word) |
 | [0127-word-ladder](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
+| [0808-number-of-matching-subsequences](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0808-number-of-matching-subsequences) |
 | [2528-number-of-valid-clock-times](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2528-number-of-valid-clock-times) |
 | [2687-lexicographically-smallest-beautiful-string](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2687-lexicographically-smallest-beautiful-string) |
 ## Array
@@ -44,6 +45,7 @@ My Leetcode solutions
 | [0665-non-decreasing-array](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0665-non-decreasing-array) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0747-min-cost-climbing-stairs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0747-min-cost-climbing-stairs) |
+| [0808-number-of-matching-subsequences](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0808-number-of-matching-subsequences) |
 | [0817-design-hashmap](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0817-design-hashmap) |
 | [0833-bus-routes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0833-bus-routes) |
 | [0890-lemonade-change](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0890-lemonade-change) |
@@ -138,6 +140,7 @@ My Leetcode solutions
 | [0146-lru-cache](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0146-lru-cache) |
 | [0359-logger-rate-limiter](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0359-logger-rate-limiter) |
 | [0694-number-of-distinct-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0694-number-of-distinct-islands) |
+| [0808-number-of-matching-subsequences](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0808-number-of-matching-subsequences) |
 | [0817-design-hashmap](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0817-design-hashmap) |
 | [0833-bus-routes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0833-bus-routes) |
 | [0976-minimum-area-rectangle](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0976-minimum-area-rectangle) |
@@ -181,6 +184,7 @@ My Leetcode solutions
 | [0403-frog-jump](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0403-frog-jump) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0747-min-cost-climbing-stairs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0747-min-cost-climbing-stairs) |
+| [0808-number-of-matching-subsequences](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0808-number-of-matching-subsequences) |
 | [1008-binary-tree-cameras](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1008-binary-tree-cameras) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
@@ -204,6 +208,7 @@ My Leetcode solutions
 | [0253-meeting-rooms-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0455-assign-cookies](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0455-assign-cookies) |
+| [0808-number-of-matching-subsequences](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0808-number-of-matching-subsequences) |
 | [0948-sort-an-array](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0948-sort-an-array) |
 | [0976-minimum-area-rectangle](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0976-minimum-area-rectangle) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
@@ -335,6 +340,7 @@ My Leetcode solutions
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0300-longest-increasing-subsequence](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0300-longest-increasing-subsequence) |
+| [0808-number-of-matching-subsequences](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0808-number-of-matching-subsequences) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2118-maximum-earnings-from-taxi](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2118-maximum-earnings-from-taxi) |
@@ -355,4 +361,8 @@ My Leetcode solutions
 |  |
 | ------- |
 | [2479-meeting-rooms-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2479-meeting-rooms-iii) |
+## Trie
+|  |
+| ------- |
+| [0808-number-of-matching-subsequences](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0808-number-of-matching-subsequences) |
 <!---LeetCode Topics End-->
