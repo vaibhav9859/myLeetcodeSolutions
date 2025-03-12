@@ -57,6 +57,7 @@ My Leetcode solutions
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
 | [1002-maximum-width-ramp](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1002-maximum-width-ramp) |
 | [1036-rotting-oranges](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1036-rotting-oranges) |
+| [1046-max-consecutive-ones-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1207-delete-nodes-and-return-forest](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1352-maximum-profit-in-job-scheduling) |
@@ -344,6 +345,7 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0253-meeting-rooms-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
+| [1046-max-consecutive-ones-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2205-find-good-days-to-rob-the-bank](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2205-find-good-days-to-rob-the-bank) |
 ## Binary Search
@@ -352,6 +354,7 @@ My Leetcode solutions
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0300-longest-increasing-subsequence](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0300-longest-increasing-subsequence) |
 | [0808-number-of-matching-subsequences](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0808-number-of-matching-subsequences) |
+| [1046-max-consecutive-ones-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2118-maximum-earnings-from-taxi](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2118-maximum-earnings-from-taxi) |
@@ -380,5 +383,6 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1046-max-consecutive-ones-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 <!---LeetCode Topics End-->
