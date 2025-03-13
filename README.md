@@ -11,6 +11,7 @@ My Leetcode solutions
 | [0127-word-ladder](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
 | [0808-number-of-matching-subsequences](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0808-number-of-matching-subsequences) |
+| [1508-longest-happy-prefix](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1508-longest-happy-prefix) |
 | [2528-number-of-valid-clock-times](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2528-number-of-valid-clock-times) |
 | [2687-lexicographically-smallest-beautiful-string](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2687-lexicographically-smallest-beautiful-string) |
 ## Array
@@ -204,6 +205,7 @@ My Leetcode solutions
 | ------- |
 | [0694-number-of-distinct-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0694-number-of-distinct-islands) |
 | [0817-design-hashmap](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0817-design-hashmap) |
+| [1508-longest-happy-prefix](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1508-longest-happy-prefix) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -388,4 +390,12 @@ My Leetcode solutions
 | [0940-fruit-into-baskets](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+## Rolling Hash
+|  |
+| ------- |
+| [1508-longest-happy-prefix](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1508-longest-happy-prefix) |
+## String Matching
+|  |
+| ------- |
+| [1508-longest-happy-prefix](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1508-longest-happy-prefix) |
 <!---LeetCode Topics End-->
