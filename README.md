@@ -10,6 +10,7 @@ My Leetcode solutions
 | [0058-length-of-last-word](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0058-length-of-last-word) |
 | [0127-word-ladder](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0686-repeated-string-match](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0686-repeated-string-match) |
 | [0808-number-of-matching-subsequences](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0808-number-of-matching-subsequences) |
 | [1508-longest-happy-prefix](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1508-longest-happy-prefix) |
@@ -147,6 +148,7 @@ My Leetcode solutions
 | [0037-sudoku-solver](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0037-sudoku-solver) |
 | [0127-word-ladder](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0127-word-ladder) |
 | [0146-lru-cache](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0146-lru-cache) |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0359-logger-rate-limiter](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0359-logger-rate-limiter) |
 | [0694-number-of-distinct-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0694-number-of-distinct-islands) |
 | [0808-number-of-matching-subsequences](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0808-number-of-matching-subsequences) |
@@ -388,6 +390,7 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0940-fruit-into-baskets](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
