@@ -10,6 +10,7 @@ My Leetcode solutions
 | [0058-length-of-last-word](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0058-length-of-last-word) |
 | [0127-word-ladder](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
+| [0686-repeated-string-match](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0686-repeated-string-match) |
 | [0808-number-of-matching-subsequences](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0808-number-of-matching-subsequences) |
 | [1508-longest-happy-prefix](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1508-longest-happy-prefix) |
 | [2528-number-of-valid-clock-times](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2528-number-of-valid-clock-times) |
@@ -397,5 +398,6 @@ My Leetcode solutions
 ## String Matching
 |  |
 | ------- |
+| [0686-repeated-string-match](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0686-repeated-string-match) |
 | [1508-longest-happy-prefix](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1508-longest-happy-prefix) |
 <!---LeetCode Topics End-->
