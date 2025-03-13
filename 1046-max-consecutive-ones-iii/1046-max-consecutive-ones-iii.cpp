@@ -11,7 +11,7 @@ public:
                 l++;  // Shrink window
             }
 
-            maxLen = max(maxLen, r - l + 1);
+            if(zeroCount <= k and l <= r) maxLen = max(maxLen, r - l + 1);
             r++;  // Expand window
         }
 
