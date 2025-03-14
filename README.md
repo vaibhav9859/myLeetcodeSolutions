@@ -185,6 +185,7 @@ My Leetcode solutions
 | ------- |
 | [0045-jump-game-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -322,6 +323,7 @@ My Leetcode solutions
 ## Math
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0070-climbing-stairs) |
 | [0172-factorial-trailing-zeroes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0172-factorial-trailing-zeroes) |
 | [0976-minimum-area-rectangle](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0976-minimum-area-rectangle) |
@@ -406,4 +408,8 @@ My Leetcode solutions
 | ------- |
 | [0686-repeated-string-match](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0686-repeated-string-match) |
 | [1508-longest-happy-prefix](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1508-longest-happy-prefix) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
