@@ -28,6 +28,7 @@ My Leetcode solutions
 | [0045-jump-game-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0051-n-queens) |
+| [0053-maximum-subarray](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0078-subsets) |
@@ -184,6 +185,7 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0045-jump-game-ii) |
+| [0053-maximum-subarray](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0070-climbing-stairs) |
@@ -215,6 +217,7 @@ My Leetcode solutions
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0053-maximum-subarray) |
 | [0948-sort-an-array](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0948-sort-an-array) |
 ## Sorting
 |  |
