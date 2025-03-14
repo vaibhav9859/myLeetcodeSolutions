@@ -114,6 +114,7 @@ My Leetcode solutions
 ## Tree
 |  |
 | ------- |
+| [0099-recover-binary-search-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0099-recover-binary-search-tree) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [1008-binary-tree-cameras](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1008-binary-tree-cameras) |
@@ -122,6 +123,7 @@ My Leetcode solutions
 ## Depth-First Search
 |  |
 | ------- |
+| [0099-recover-binary-search-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0099-recover-binary-search-tree) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0200-number-of-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0200-number-of-islands) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -137,6 +139,7 @@ My Leetcode solutions
 ## Binary Tree
 |  |
 | ------- |
+| [0099-recover-binary-search-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0099-recover-binary-search-tree) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [1008-binary-tree-cameras](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1008-binary-tree-cameras) |
@@ -415,4 +418,8 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0062-unique-paths) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0099-recover-binary-search-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0099-recover-binary-search-tree) |
 <!---LeetCode Topics End-->
