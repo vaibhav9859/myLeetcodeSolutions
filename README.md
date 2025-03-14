@@ -13,6 +13,7 @@ My Leetcode solutions
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0686-repeated-string-match](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0686-repeated-string-match) |
 | [0808-number-of-matching-subsequences](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0808-number-of-matching-subsequences) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1508-longest-happy-prefix](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1508-longest-happy-prefix) |
 | [2528-number-of-valid-clock-times](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2528-number-of-valid-clock-times) |
 | [2687-lexicographically-smallest-beautiful-string](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2687-lexicographically-smallest-beautiful-string) |
@@ -158,6 +159,7 @@ My Leetcode solutions
 | [0976-minimum-area-rectangle](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0976-minimum-area-rectangle) |
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2118-maximum-earnings-from-taxi](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2118-maximum-earnings-from-taxi) |
 | [2479-meeting-rooms-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2479-meeting-rooms-iii) |
 ## Recursion
@@ -393,6 +395,7 @@ My Leetcode solutions
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0940-fruit-into-baskets](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1046-max-consecutive-ones-iii) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Rolling Hash
 |  |
