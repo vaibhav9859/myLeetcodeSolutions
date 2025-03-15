@@ -42,6 +42,7 @@ My Leetcode solutions
 | [0200-number-of-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0213-house-robber-ii) |
 | [0216-combination-sum-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0216-combination-sum-iii) |
+| [0221-maximal-square](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0221-maximal-square) |
 | [0252-meeting-rooms](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0300-longest-increasing-subsequence) |
@@ -199,6 +200,7 @@ My Leetcode solutions
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0213-house-robber-ii) |
+| [0221-maximal-square](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0221-maximal-square) |
 | [0300-longest-increasing-subsequence](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0403-frog-jump](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0403-frog-jump) |
@@ -319,6 +321,7 @@ My Leetcode solutions
 | ------- |
 | [0037-sudoku-solver](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0037-sudoku-solver) |
 | [0200-number-of-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0200-number-of-islands) |
+| [0221-maximal-square](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0221-maximal-square) |
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1036-rotting-oranges) |
 | [2035-count-sub-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2035-count-sub-islands) |
