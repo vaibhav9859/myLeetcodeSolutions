@@ -116,6 +116,7 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0099-recover-binary-search-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0099-recover-binary-search-tree) |
+| [0100-same-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0100-same-tree) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [1008-binary-tree-cameras](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1008-binary-tree-cameras) |
@@ -125,6 +126,7 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0099-recover-binary-search-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0099-recover-binary-search-tree) |
+| [0100-same-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0100-same-tree) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0200-number-of-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0200-number-of-islands) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -142,6 +144,7 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0099-recover-binary-search-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0099-recover-binary-search-tree) |
+| [0100-same-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0100-same-tree) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [1008-binary-tree-cameras](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1008-binary-tree-cameras) |
@@ -175,6 +178,7 @@ My Leetcode solutions
 ## Breadth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0100-same-tree) |
 | [0127-word-ladder](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0127-word-ladder) |
 | [0200-number-of-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0547-number-of-provinces) |
