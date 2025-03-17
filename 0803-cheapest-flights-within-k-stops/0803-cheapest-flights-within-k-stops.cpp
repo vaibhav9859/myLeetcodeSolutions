@@ -34,10 +34,10 @@ public:
                 auto [newNode, newDist] = adjNodePr;
 
                 // if(curStops == k and newNode != dst) continue;
-                if(newNode == dst){
-                    if(curDist + newDist < dist[dst]) dist[dst] = curDist + newDist;
-                    continue;
-                }
+                // if(newNode == dst){
+                //     if(curDist + newDist < dist[dst]) dist[dst] = curDist + newDist;
+                //     continue;
+                // }
 
                 if(curDist+newDist < dist[newNode]){
                     dist[newNode] = curDist+newDist;
