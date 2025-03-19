@@ -28,6 +28,7 @@ My Leetcode solutions
 | [0040-combination-sum-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0040-combination-sum-ii) |
 | [0045-jump-game-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0046-permutations) |
+| [0048-rotate-image](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0055-jump-game) |
@@ -335,6 +336,7 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0037-sudoku-solver) |
+| [0048-rotate-image](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0048-rotate-image) |
 | [0200-number-of-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0200-number-of-islands) |
 | [0221-maximal-square](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0221-maximal-square) |
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
@@ -347,6 +349,7 @@ My Leetcode solutions
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0048-rotate-image) |
 | [0062-unique-paths](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0070-climbing-stairs) |
 | [0172-factorial-trailing-zeroes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0172-factorial-trailing-zeroes) |
