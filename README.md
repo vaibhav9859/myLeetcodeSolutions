@@ -72,6 +72,7 @@ My Leetcode solutions
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1207-delete-nodes-and-return-forest](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1352-maximum-profit-in-job-scheduling) |
+| [1380-number-of-closed-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1380-number-of-closed-islands) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1582-design-browser-history](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1582-design-browser-history) |
@@ -141,6 +142,7 @@ My Leetcode solutions
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
 | [1008-binary-tree-cameras](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1008-binary-tree-cameras) |
 | [1207-delete-nodes-and-return-forest](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
+| [1380-number-of-closed-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1380-number-of-closed-islands) |
 | [2035-count-sub-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2035-count-sub-islands) |
 | [2206-detonate-the-maximum-bombs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
@@ -192,6 +194,7 @@ My Leetcode solutions
 | [0833-bus-routes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0833-bus-routes) |
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1036-rotting-oranges) |
+| [1380-number-of-closed-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1380-number-of-closed-islands) |
 | [2035-count-sub-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2035-count-sub-islands) |
 | [2206-detonate-the-maximum-bombs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
@@ -333,6 +336,7 @@ My Leetcode solutions
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1100-connecting-cities-with-minimum-cost) |
+| [1380-number-of-closed-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1380-number-of-closed-islands) |
 | [2035-count-sub-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2035-count-sub-islands) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Matrix
@@ -344,6 +348,7 @@ My Leetcode solutions
 | [0221-maximal-square](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0221-maximal-square) |
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1036-rotting-oranges) |
+| [1380-number-of-closed-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1380-number-of-closed-islands) |
 | [2035-count-sub-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2035-count-sub-islands) |
 ## Minimum Spanning Tree
 |  |
