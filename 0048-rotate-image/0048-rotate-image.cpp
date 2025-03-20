@@ -1,26 +1,15 @@
 class Solution {
 public:
-void rotate(vector<vector<int>> &mat){
-	
-	int sz = mat.size();
-	
-	for(int i=0; i<sz; i++){
-	reverse(mat[i].begin(), mat[i].end());
-}
+    void rotate(vector<vector<int>>& matrix) {
+        int n = matrix.size();
+        for(int i=0; i<n; i++){
+            for(int j=i+1; j<n; j++){
+                swap(matrix[i][j], matrix[j][i]);
+            }
+        }
 
-// swap element
-int tempCol = sz-1;
-
-for(int row=0; row<sz; row++){
-    int itr = sz-1-row;
-	for(int col=0; col<tempCol; col++){
-	
-	swap(mat[row][col], mat[row+itr][col+itr]);
-    itr--;
-}
-tempCol--;
-
-}
-}
-
+        for(int i=0; i<n; i++){
+            reverse(matrix[i].begin(), matrix[i].end());
+        }
+    }
 };
