@@ -13,7 +13,7 @@ public:
         while(right < sz){
             mp[nums[right]]++;
 
-            while(mp.size() > k and left<=right){
+            while(mp.size() > k){
                 mp[nums[left]]--;
                 if(mp[nums[left]] == 0){
                     mp.erase(nums[left]);
