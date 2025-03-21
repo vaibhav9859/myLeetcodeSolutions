@@ -65,6 +65,7 @@ My Leetcode solutions
 | [0890-lemonade-change](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0890-lemonade-change) |
 | [0940-fruit-into-baskets](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0940-fruit-into-baskets) |
 | [0948-sort-an-array](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0948-sort-an-array) |
+| [0966-binary-subarrays-with-sum](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
 | [0976-minimum-area-rectangle](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0976-minimum-area-rectangle) |
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
 | [1002-maximum-width-ramp](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1002-maximum-width-ramp) |
@@ -174,6 +175,7 @@ My Leetcode solutions
 | [0817-design-hashmap](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0817-design-hashmap) |
 | [0833-bus-routes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0833-bus-routes) |
 | [0940-fruit-into-baskets](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0940-fruit-into-baskets) |
+| [0966-binary-subarrays-with-sum](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
 | [0976-minimum-area-rectangle](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0976-minimum-area-rectangle) |
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
@@ -394,6 +396,7 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0253-meeting-rooms-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
+| [0966-binary-subarrays-with-sum](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2205-find-good-days-to-rob-the-bank](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2205-find-good-days-to-rob-the-bank) |
@@ -435,6 +438,7 @@ My Leetcode solutions
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0940-fruit-into-baskets) |
+| [0966-binary-subarrays-with-sum](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
