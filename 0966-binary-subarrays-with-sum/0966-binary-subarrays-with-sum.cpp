@@ -5,6 +5,7 @@ public:
     }
 
     int subArrays(vector<int>& nums, int goal){
+        if (goal < 0) return 0; 
         int sz = nums.size();
         int left = 0, right = 0;
         int ans = 0;
@@ -13,7 +14,7 @@ public:
         while(right < sz){
             if(nums[right] == 1) oneCount++;
 
-            while(oneCount > goal and left <= right){
+            while(oneCount > goal){
                 if(nums[left] == 1) oneCount--;
                 left++;
             }
