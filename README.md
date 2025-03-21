@@ -74,6 +74,7 @@ My Leetcode solutions
 | [1085-the-earliest-moment-when-everyone-become-friends](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1085-the-earliest-moment-when-everyone-become-friends) |
 | [1207-delete-nodes-and-return-forest](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1352-maximum-profit-in-job-scheduling) |
+| [1370-count-number-of-nice-subarrays](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1380-number-of-closed-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1380-number-of-closed-islands) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -179,6 +180,7 @@ My Leetcode solutions
 | [0976-minimum-area-rectangle](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0976-minimum-area-rectangle) |
 | [0999-regions-cut-by-slashes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0999-regions-cut-by-slashes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1207-delete-nodes-and-return-forest) |
+| [1370-count-number-of-nice-subarrays](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2118-maximum-earnings-from-taxi](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2118-maximum-earnings-from-taxi) |
 | [2479-meeting-rooms-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2479-meeting-rooms-iii) |
@@ -366,6 +368,7 @@ My Leetcode solutions
 | [0070-climbing-stairs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0070-climbing-stairs) |
 | [0172-factorial-trailing-zeroes](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0172-factorial-trailing-zeroes) |
 | [0976-minimum-area-rectangle](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0976-minimum-area-rectangle) |
+| [1370-count-number-of-nice-subarrays](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1370-count-number-of-nice-subarrays) |
 | [2206-detonate-the-maximum-bombs](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2206-detonate-the-maximum-bombs) |
 ## Geometry
 |  |
@@ -398,6 +401,7 @@ My Leetcode solutions
 | [0253-meeting-rooms-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
 | [0966-binary-subarrays-with-sum](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2205-find-good-days-to-rob-the-bank](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/2205-find-good-days-to-rob-the-bank) |
 ## Binary Search
@@ -440,6 +444,7 @@ My Leetcode solutions
 | [0940-fruit-into-baskets](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Rolling Hash
