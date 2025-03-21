@@ -13,21 +13,12 @@ public:
         while(right < sz){
             if(nums[right] == 1) oneCount++;
 
-            if(oneCount <= goal){
-                ans += (right-left+1);
-            }
-            else {
-                while(oneCount > goal and left <= right){
-                    if(nums[left] == 1) oneCount--;
-                    left++;
-                }
-                
-
-                if(oneCount <= goal and left <= right){
-                    ans += (right-left+1);
-                }
+            while(oneCount > goal and left <= right){
+                if(nums[left] == 1) oneCount--;
+                left++;
             }
 
+            ans += (right-left+1);
             right++;
         }
 
