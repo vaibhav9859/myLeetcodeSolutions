@@ -13,6 +13,7 @@ My Leetcode solutions
 | [0131-palindrome-partitioning](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
 | [0179-largest-number](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0179-largest-number) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0686-repeated-string-match](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0686-repeated-string-match) |
 | [0808-number-of-matching-subsequences](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0808-number-of-matching-subsequences) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -167,6 +168,7 @@ My Leetcode solutions
 | [0146-lru-cache](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0146-lru-cache) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0359-logger-rate-limiter](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0359-logger-rate-limiter) |
+| [0424-longest-repeating-character-replacement](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0694-number-of-distinct-islands](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0694-number-of-distinct-islands) |
 | [0808-number-of-matching-subsequences](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0808-number-of-matching-subsequences) |
 | [0817-design-hashmap](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0817-design-hashmap) |
@@ -431,6 +433,7 @@ My Leetcode solutions
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
