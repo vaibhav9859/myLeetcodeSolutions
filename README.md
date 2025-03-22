@@ -7,6 +7,7 @@ My Leetcode solutions
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0005-longest-palindromic-substring) |
 | [0032-longest-valid-parentheses](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0032-longest-valid-parentheses) |
 | [0058-length-of-last-word](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0058-length-of-last-word) |
 | [0076-minimum-window-substring](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0076-minimum-window-substring) |
@@ -215,6 +216,7 @@ My Leetcode solutions
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0005-longest-palindromic-substring) |
 | [0032-longest-valid-parentheses](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0032-longest-valid-parentheses) |
 | [0045-jump-game-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0053-maximum-subarray) |
@@ -321,6 +323,7 @@ My Leetcode solutions
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0005-longest-palindromic-substring) |
 | [0015-3sum](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0015-3sum) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0253-meeting-rooms-ii](https://github.com/vaibhav9859/myLeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
